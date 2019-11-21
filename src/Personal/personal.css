@@ -1,0 +1,51 @@
+.heard{
+    width: 100%;
+    height:150px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.leirong{
+    width: 80%;
+    height: 150px;
+    margin:  0 auto;
+    background-color: blueviolet;
+}
+.center_message{
+    width: 80%;
+    height: 630px;
+   margin: 0 auto;
+    background-color: brown;
+
+}
+.left_message{
+    width: 12%;
+    height: 630px;
+    background-color: cadetblue;
+    float: left;
+
+}
+.right_message{
+    width: 88%;
+    height: 630px;
+    background-color:burlywood;
+    float: left;
+
+}
+.flooer{
+    width: 100%;
+    height: 500px;
+    background-color: darkblue;
+}
+.photo{
+    width: 100%;
+    height: 180px;
+    background-color: darkgray;
+
+}
+.message_list{
+    width: 100%;
+    height: 150px;
+    background-color: darkkhaki;
+
+}
+
