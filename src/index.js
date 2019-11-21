@@ -13,6 +13,7 @@ import Main from './containers/main/main'
     render(){
     return(
       <div>
+        
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={Personal}></Route>
