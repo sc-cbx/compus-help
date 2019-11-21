@@ -8,6 +8,7 @@ import Main from './containers/main/main'
 
 
 
+
   class IndexPage extends React.Component{
     render(){
     return(
