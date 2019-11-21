@@ -19,6 +19,8 @@ import Main from './containers/main/main'
             <Route component={Main}/>{/*默认路由*/}
           </Switch>
         </BrowserRouter>
+
+        
       </div>
     )
     }
