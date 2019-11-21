@@ -10,10 +10,11 @@ import Main from './containers/main/main'
 
 
   class IndexPage extends React.Component{
+    
     render(){
     return(
       <div>
-        
+
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={Personal}></Route>
