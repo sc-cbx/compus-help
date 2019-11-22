@@ -11,7 +11,7 @@ export default class Header extends React.Component{
                         <ul className={HeaderCss.first}>
                             <li className={HeaderCss.firstli}>
                                 <div className={HeaderCss.firstdiv}>
-                                    <span className={HeaderCss.span}>
+                                    <span >
                                         <img src={require('./../imgs/11.png')} className={HeaderCss.firstimg}></img>
                                     </span>
                                     <span className={HeaderCss.span}>首页</span>

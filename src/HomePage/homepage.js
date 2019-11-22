@@ -10,7 +10,7 @@ export default class HomePage extends React.Component{
             <div className={HomePageCss.div}>
                 <Header/>
                 <div>
-                    
+                    首页
                         
                     
                 </div>
