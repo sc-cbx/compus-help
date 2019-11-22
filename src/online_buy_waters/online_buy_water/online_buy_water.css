@@ -1,0 +1,111 @@
+
+/*初始化页面*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+/*快递帮拿*/
+
+.box{
+    height: 700px;
+    background-color: #fefefe;
+    margin: auto;
+    width: 80%;
+}
+.item_name{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5%;
+    background-color: #01ffa6;
+}
+.item_name >h3{
+    width: 20%;
+    height: 0;
+    font-size: 50px;
+    margin: 0 10%;
+    background-color: #01ffa6;
+    color: #8b34ad;
+    letter-spacing: 10px;
+}
+.item_name > img{
+    height: 80px;
+    margin-right: 62%;
+    background-color: #01ffa6;
+    float: right;
+}
+
+.online_img{
+    width: 55%;
+    height: 57.7%;
+    background-color: #ffffff;
+    float: left;
+}
+.online_img > img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.container{
+    width: 40%;
+    height: 42%;
+    margin-top: 4.5%;
+    float: left;
+    background-color: #ffffff;
+    border:1px solid #0f0f0f;
+    border-radius: 3px;
+}
+.content{
+    width: 100%;
+    height: 70%;
+    background-color: #ffffff;
+}
+.onlinewater{
+    margin: 4% 3%;
+}
+.onlinewater_name{
+    margin: 4% 11.5%;
+}
+.onlinewater_num{
+    margin: 4% 7.7%;
+}
+.onlinewater,.onlinewater_name,.onlinewater_num, label, input{
+    background-color: #ffffff;
+    letter-spacing: 5px;
+}
+.onlinewater > label,.onlinewater_name > label,.onlinewater_num > label{
+    font-size: 16px;
+    color: #0f0f0f;
+}
+.onlinewater > input,.onlinewater_name > input,.onlinewater_num > input{
+    text-indent: 14px;
+    width: 60%;
+    height: 35px;
+    color: #0f0f0f;
+    border: 1px solid #0f0f0f;
+    border-radius: 3px;
+}
+.onlinewater_name > input,.onlinewater_num > input{
+    width: 30%;
+}
+.onlinewater > input:hover,.onlinewater_name > input:hover,.onlinewater_num > input:hover{
+    border: 1px solid #f46;
+    background-color: #fdfdfd;
+}
+.container > .content > button{
+    width: 20%;
+    height: 14%;
+    background-color: #ffb0ac;
+    border: 1px solid #ffb0ac;
+    margin: 8px 39%;
+}
+.container > .content > button:hover{
+    background-color: #f46;
+    color: #fff8fd;
+}
