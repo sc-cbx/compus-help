@@ -41,28 +41,38 @@ export default class Collection extends React.Component {
                         {/*主要内容：顶部*/}
                         <div className={collection.container_top}>
                             <div className={collection.classifications}>
-                                <Link to="/collection">全部宝贝</Link>
-                                <span>|</span>
-                                <Link to="/collection">降价</Link>
-                                <span>|</span>
-                                <Link to="/collection">失效/宝贝不存在</Link>
+                                <div className={collection.all_baby}>
+                                    <Link to="/collection">全部宝贝</Link>
+                                    <span>|</span>
+                                    <Link to="/collection">降价</Link>
+                                    <span>|</span>
+                                    <Link to="/collection">失效/宝贝不存在</Link>
+                                </div>
                             </div>
                             <div className={collection.classification}>
-                                <Link to="/collection">全部宝贝</Link>
-                                <Link to="/collection">衣服</Link>
-                                <Link to="/collection">鞋子</Link>
-                                <Link to="/collection">食品</Link>
-                                <Link to="/collection">其他</Link>
+                                <div className={collection.classification_left}>
+                                    <Link to="/collection">全部宝贝</Link>
+                                    <Link to="/collection">衣服</Link>
+                                    <Link to="/collection">鞋子</Link>
+                                    <Link to="/collection">食品</Link>
+                                    <Link to="/collection">其他</Link>
+                                </div>
+
+                                <div className={collection.classification_right}>
+                                    <button className={collection.btn}>整理</button>
+                                </div>
+
                             </div>
                         </div>
                         <div className={collection.kong}></div>
+
                         {/*主要内容：内容*/}
                         <div className={collection.container_content}>
                             <ul>
                                 <li>
                                     <Link to="/collection">
                                         <img src={commodity_img} alt="商品图片"/>
-                                        <div>
+                                        <div className={collection.price}>
                                             <Link to="/collection">雪地靴</Link>
                                             <p>￥35.00<span>￥100.00</span></p>
                                         </div>
@@ -71,7 +81,7 @@ export default class Collection extends React.Component {
                                 <li>
                                     <Link to="/collection">
                                         <img src={commodity_img} alt="商品图片"/>
-                                        <div>
+                                        <div className={collection.price}>
                                             <Link to="/collection">雪地靴</Link>
                                             <p>￥35.00<span>￥100.00</span></p>
                                         </div>
@@ -80,7 +90,43 @@ export default class Collection extends React.Component {
                                 <li>
                                     <Link to="/collection">
                                         <img src={commodity_img} alt="商品图片"/>
-                                        <div>
+                                        <div className={collection.price}>
+                                            <Link to="/collection">雪地靴</Link>
+                                            <p>￥35.00<span>￥100.00</span></p>
+                                        </div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/collection">
+                                        <img src={commodity_img} alt="商品图片"/>
+                                        <div className={collection.price}>
+                                            <Link to="/collection">雪地靴</Link>
+                                            <p>￥35.00<span>￥100.00</span></p>
+                                        </div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/collection">
+                                        <img src={commodity_img} alt="商品图片"/>
+                                        <div className={collection.price}>
+                                            <Link to="/collection">雪地靴</Link>
+                                            <p>￥35.00<span>￥100.00</span></p>
+                                        </div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/collection">
+                                        <img src={commodity_img} alt="商品图片"/>
+                                        <div className={collection.price}>
+                                            <Link to="/collection">雪地靴</Link>
+                                            <p>￥35.00<span>￥100.00</span></p>
+                                        </div>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/collection">
+                                        <img src={commodity_img} alt="商品图片"/>
+                                        <div className={collection.price}>
                                             <Link to="/collection">雪地靴</Link>
                                             <p>￥35.00<span>￥100.00</span></p>
                                         </div>
