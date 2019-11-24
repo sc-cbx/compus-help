@@ -29,7 +29,8 @@ export default class Main extends React.Component{
                     {/*<Shopping_cart/>*/}
 
                     {/*食品速购*/}
-                    {/*<Quick_food_purchase/>*/}
+                    <Quick_food_purchase/>
+                    
                 </BrowserRouter>
             </div>
         )

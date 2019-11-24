@@ -17,15 +17,15 @@ class IndexPage extends React.Component{
             <div>
                <BrowserRouter>
                <Switch>
-                   <Route path="/homepage" component={HomePage}></Route>
-                   <Route path="/login" component={LoginPage}></Route>
+                   {/* <Route path="/homepage" component={HomePage}></Route>
+                   <Route path="/login" component={LoginPage}></Route> */}
 
                    
-                   {/*<Route component={Main}/> */}{/* 默认路由 */}
+                   <Route component={Main}/>{/* 默认路由 */}
                    
 
                    {/* <Route path="/picture1" component={Picture1}></Route> */}
-                   <Redirect to="/login"></Redirect>
+                   {/* <Redirect to="/login"></Redirect> */}
                </Switch>
                </BrowserRouter>
             </div>
