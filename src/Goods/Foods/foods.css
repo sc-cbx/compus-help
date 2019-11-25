@@ -1,0 +1,35 @@
+.container{
+    margin: auto;
+    width: 100%;
+    background-color: #c76c6c;
+}
+/* 食品：主要内容 */
+.container > .content{
+    width: 100%;
+}
+.container > .content > ul > li{
+    width: 23%;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    float: left;
+    background-color: #f8f8f8;
+}
+.container > .content > ul > li > a{
+    width: 100%;
+    height: 270px;
+}
+.container > .content > ul > li > a > img{
+    width: 220px;
+    height: 220px;
+ }
+.container > .content > ul > li > a > .price > a{
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+}
+.container > .content > ul > li > a > .price > p{
+    margin-left: 12%;
+    color: #000000;
+}

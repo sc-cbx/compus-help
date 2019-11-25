@@ -219,29 +219,3 @@ ul ,ol ,li{
 .content{
     width: 100%;
 }
-.content > ul > li{
-    width: 23%;
-    height: 270px;
-    margin-left: 20px;
-    margin-top: 45px;
-    text-align: center;
-    float: left;
-    background-color: #F8F8F8;
-}
-.content > ul > li > a{
-    width: 100%;
-    height: 270px;
-}
-.content > ul > li > a > img{
-    width: 220px;
-    height: 220px;
- }
-.content > ul > li > a > .price > a{
-    width: 100%;
-    font-size: 17px;
-    color: #000000;
-}
-.content > ul > li > a > .price > p{
-    margin-left: 12%;
-    color: #000000;
-}

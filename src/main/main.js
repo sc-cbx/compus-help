@@ -26,10 +26,10 @@ export default class Main extends React.Component{
                     {/* <Collection/> */}
 
                     {/*购物车*/}
-                    {/*<Shopping_cart/>*/}
+                    <Shopping_cart/>
 
                     {/*食品速购*/}
-                    <Quick_food_purchase/>
+                    {/* <Quick_food_purchase/> */}
                     
                 </BrowserRouter>
             </div>
