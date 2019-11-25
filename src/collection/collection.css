@@ -128,7 +128,7 @@ ul ,ol ,li{
     width: 100%;
 }
 .classification > .classification_left{
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 5%;
     /*float: left;*/
 }
@@ -143,6 +143,7 @@ ul ,ol ,li{
     letter-spacing: 5px;
 }
 .classification > .classification_right{
+    /* margin-bottom: 10px; */
     float: right;
 }
 .classification > .classification_right > .btn{
@@ -163,7 +164,7 @@ ul ,ol ,li{
     width: 23%;
     height: 270px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     float: left;
     background-color: #F8F8F8;

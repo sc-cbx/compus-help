@@ -30,7 +30,7 @@ ul ,ol ,li{
     width: 100%;
     height: 70px;
     background-color: #efefef;
-    border-bottom: 2px solid #ffffff;
+    /* border-bottom: 2px solid #ffffff; */
 }
 .quick_food_title > .search > .search_left{
     margin-left: 5%;
@@ -78,6 +78,7 @@ ul ,ol ,li{
 .classification{
     width: 100%;
     height: 100px;
+    float: left;
     background-color: #f8f8f8;
 }
 .classification > .cooked_foods, .snackses, .puffed_foods{
@@ -196,8 +197,9 @@ ul ,ol ,li{
     width: 100%;
     height: 40px;
     background-color: #d3d3d3;
+    float: left;
 }
-.container > .container_top > h3{
+.container > .container_top > .food_title > h3{
     font-size: 22px;
     line-height: 40px;
     margin-left: 2%;
@@ -221,7 +223,7 @@ ul ,ol ,li{
     width: 23%;
     height: 270px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 45px;
     text-align: center;
     float: left;
     background-color: #F8F8F8;

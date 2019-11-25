@@ -23,7 +23,7 @@ export default class Main extends React.Component{
                     {/*<Online_buy_water/>*/}
 
                     {/*收藏*/}
-                    {/*<Collection/>*/}
+                    {/* <Collection/> */}
 
                     {/*购物车*/}
                     {/*<Shopping_cart/>*/}
