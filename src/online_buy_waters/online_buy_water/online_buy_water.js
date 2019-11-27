@@ -4,6 +4,7 @@ import './online_buy_water.css'
 import online_img from "../../imgs/互联网.png";
 import online_slider_img from "../../imgs/78c1d1f9654772c7c208068a27c8701d.jpeg"
 import Header from '../../Header/header';
+import And_reduce from '../../Assembly/And_reduce/and_reduce';
 
 var on_buy_wt = require('./online_buy_water.css')
 export default class Online_buy_water extends React.Component {
@@ -58,11 +59,16 @@ export default class Online_buy_water extends React.Component {
                                 <input type="site" placeholder="寝室号" />
                             </div>
 
-                            {/*待定*/}
-                            <div className={on_buy_wt.onlinewater_name}>
-                                <label>数量：</label>
-                                <input type="courier_name" placeholder="数量" />
+                            {/*数量*/}
+                            <div>
+                                <div className={on_buy_wt.onlinewater_numbers}>
+                                    <label>数量：</label>
+                                </div>
+                                <div className={on_buy_wt.onlinewater_number}>
+                                    <And_reduce/>
+                                </div>
                             </div>
+                            
                             <button type="submit">提交</button>
                         </div>
                     </div>

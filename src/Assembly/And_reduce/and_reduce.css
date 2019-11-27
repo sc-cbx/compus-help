@@ -1,0 +1,14 @@
+/* .numbers{
+    width: 50%;
+} */
+.numbers > input{
+    /* text-align: center; */
+    font-size: 18px;
+    width: 40px;
+    height: 30px;
+    padding-left: 4px;
+    border: 1px solid #b9b9b9;
+}
+.numbers > input:nth-child(2){
+    width: 50px;
+}

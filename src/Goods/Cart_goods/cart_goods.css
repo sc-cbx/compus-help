@@ -30,6 +30,11 @@
     width: 18px;
     height: 18px;
 }
+.container > .all_elections > .all_election > a{
+    margin-left: 20px;
+    font-size: 17px;
+    color: #3f3f3f;
+}
 
 /*结算*/
 .container > .all_elections > .Settlement{
@@ -99,6 +104,7 @@
 .store_name > .st_name > label{
     margin-left: 22px;
     font-size: 17px;
+    background-color: #f8f8f8;
 }
 .store_name > .st_name > a{
     font-size: 18px;
@@ -142,7 +148,6 @@
     color: #0f0f0f;
     margin-left: 10%;
     margin-top: 3px;
-    /*float: left;*/
 }
 .goods > .price> h4{
     position: absolute;
@@ -150,20 +155,25 @@
     left: 11%;
 }
 .goods > .goods_num{
-    width: 30%;
-    /*background-color: #ff4466;*/
+    width: 35%;
     height: 160px;
     float: right;
 }
-.goods > .goods_num > input{
-    width: 100px;
-    height: 35px;
-    margin-top: 18%;
+
+.goods > .goods_num > .numbers{
+    margin-top: 19%;
     float: left;
 }
-.goods > .goods_num > h3{
-    font-size: 16px;
-    margin-top: 21%;
+.goods > .goods_num >.all_price{
+    margin-top: 13%;
     margin-right: 17%;
     float: right;
+}
+.goods > .goods_num >.all_price > h3{
+    font-size: 16px;
+}
+.goods > .goods_num >.all_price > a{
+    font-size: 16px;
+    color: #3f3f3f;
+    margin-left: 35%;
 }

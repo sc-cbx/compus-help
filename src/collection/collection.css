@@ -58,6 +58,7 @@ ul ,ol ,li{
 }
 .collection_title_left > .baby_collection:hover,.store_collection:hover{
     background-color: #dddddd;
+    color: #1b1b1b;
     border:1px solid #dddddd;
 }
 .collection_title_right{
@@ -137,6 +138,9 @@ ul ,ol ,li{
     color: #3a3a3a;
     margin-left: 1.5%;
     float: left;
+}
+.classification > .classification_left > a:hover{
+    color: #ff8ca3;
 }
 .classification > .classification_left > a:first-child{
     margin-left: 0.3%;

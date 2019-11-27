@@ -23,21 +23,21 @@ a{
     width: 100%;
     height: 80px;
     margin-bottom: 5%;
-    background-color: #01ffa6;
+    background-color: #ffb0ac;
 }
 .item_name >h3{
     width: 20%;
     height: 0;
     font-size: 50px;
     margin: 0 10%;
-    background-color: #01ffa6;
-    color: #8b34ad;
+    background-color: #ffb0ac;
+    color: #fcf4ff;
     letter-spacing: 10px;
 }
 .item_name > img{
     height: 80px;
     margin-right: 62%;
-    background-color: #01ffa6;
+    background-color: #ffb0ac;
     float: right;
 }
 
@@ -75,11 +75,14 @@ a{
 .onlinewater_num{
     margin: 4% 7.7%;
 }
+.onlinewater_numbers{
+    margin: 2% 0 1% 11.5%;
+}
 .onlinewater,.onlinewater_name,.onlinewater_num, label, input{
     background-color: #ffffff;
     letter-spacing: 5px;
 }
-.onlinewater > label,.onlinewater_name > label,.onlinewater_num > label{
+.onlinewater > label,.onlinewater_name > label,.onlinewater_num > label,.onlinewater_numbers > label{
     font-size: 16px;
     color: #0f0f0f;
 }
@@ -97,6 +100,10 @@ a{
 .onlinewater > input:hover,.onlinewater_name > input:hover,.onlinewater_num > input:hover{
     border: 1px solid #f46;
     background-color: #fdfdfd;
+}
+.onlinewater_number{
+    margin-left: 25.5%;
+    margin-bottom: 1.5%;
 }
 .container > .content > button{
     width: 20%;
