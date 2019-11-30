@@ -22,7 +22,7 @@ export default class Main extends React.Component{
             <div>
                 <BrowserRouter>
                     {/*快递帮拿*/}
-                    <Courier_helps/>
+                    {/* <Courier_helps/> */}
                     {/* <Courier_help/> */}
 
                     {/*网上购水*/}
@@ -36,7 +36,7 @@ export default class Main extends React.Component{
                     {/* <Shopping_cart/> */}
 
                     {/*食品速购*/}
-                    {/* <Quick_food_purchase/> */}
+                    <Quick_food_purchase/>
 
                 </BrowserRouter>
             </div>

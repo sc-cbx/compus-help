@@ -5,8 +5,7 @@
 .container_content > ul > li{
     width: 23%;
     height: 270px;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin: 5px 0 20px 20px;
     text-align: center;
     float: left;
     background-color: #F8F8F8;
@@ -18,19 +17,23 @@
 }
 .container_content > ul > li > a > img{
     width: 220px;
-    height: 220px;
+    height: 150px;
  }
 .container_content > ul > li > a > .price > a{
     width: 100%;
-    font-size: 17px;
+    font-size: 16px;
     color: #000000;
+}
+.container_content > ul > li > a > .price > a:hover{
+    text-decoration: underline;
 }
 .container_content > ul > li > a > .price > p{
-    margin-left: 12%;
-    color: #000000;
+    /* margin-left: 12%; */
+    margin-top: 20px;
+    color: #ff7171;
 }
-.container_content > ul > li > a > div > p > span{
+/* .container_content > ul > li > a > div > p > span{
     margin-left: 5px;
     color: #979797;
     text-decoration: line-through;
-}
+} */

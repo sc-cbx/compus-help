@@ -6,6 +6,7 @@ import HomePage from './HomePage/homepage'
 import LoginPage from './Login/login'
 import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom'
 import Main from './main/main';
+import Tiaozhuan from './tiaozhuan';
 
 // import Picture1 from './HomePage/First/Picture1/picture1';
 
@@ -22,6 +23,7 @@ class IndexPage extends React.Component{
 
                    
                    <Route component={Main}/>{/* 默认路由 */}
+                   <Route path="/tiaozhuan" component={Tiaozhuan}></Route>
                    
 
                    {/* <Route path="/picture1" component={Picture1}></Route> */}

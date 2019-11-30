@@ -18,7 +18,7 @@ ul ,ol ,li{
     height: 700px;
     background-color: #fefefe;
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 .quick_food_title{
     width: 100%;
@@ -79,7 +79,7 @@ ul ,ol ,li{
     width: 100%;
     height: 100px;
     float: left;
-    background-color: #f8f8f8;
+    background-color:  #fefefe;
 }
 .classification > .cooked_foods, .snackses, .puffed_foods{
     width: 33%;
@@ -99,6 +99,9 @@ ul ,ol ,li{
     margin-left: 30%;
     float: left;
 }
+.classification > .cooked_foods > .cooked_food > a:hover,.classification > .snackses > .snacks > a:hover,.classification > .puffed_foods > .puffed_food > a:hover{
+    color: #f46;
+}
 .classification > .cooked_foods > .cooked_food > img{
     width: 90px;
     margin-left: 12%;
@@ -111,6 +114,13 @@ ul ,ol ,li{
     margin-left: 15px;
     float: left;
 }
+
+.classification > .cooked_foods > a:hover ,.classification > .snackses > a:hover,.classification > .puffed_foods > a:hover{
+    color: #ff859c;
+}
+
+
+
 .classification > .cooked_foods > span{
     color: #616161;
     margin: 40px 5px 0 15px;
@@ -196,7 +206,7 @@ ul ,ol ,li{
 .container > .container_top > .food_title{
     width: 100%;
     height: 40px;
-    background-color: #d3d3d3;
+    background-color: #efefef;
     float: left;
 }
 .container > .container_top > .food_title > h3{
@@ -209,6 +219,9 @@ ul ,ol ,li{
     font-size: 20px;
     color: #2c2c2c;
     margin-left: 2%;
+}
+.container > .container_top > .container_title > a:hover{
+    color: #ff5d7b;
 }
 .container > .container_top > .container_title > span{
     margin-left: 2%;

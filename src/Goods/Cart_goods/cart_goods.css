@@ -35,6 +35,10 @@
     font-size: 17px;
     color: #3f3f3f;
 }
+.container > .all_elections > .all_election > a:hover{
+    color: #ff4466;
+    text-decoration: underline;
+}
 
 /*结算*/
 .container > .all_elections > .Settlement{
@@ -144,7 +148,7 @@
     float: left;
 }
 .goods > .price > a{
-    font-size: 18px;
+    font-size: 14px;
     color: #0f0f0f;
     margin-left: 10%;
     margin-top: 3px;
@@ -176,4 +180,8 @@
     font-size: 16px;
     color: #3f3f3f;
     margin-left: 35%;
+}
+.goods > .goods_num >.all_price > a:hover{
+    color: #ff4466;
+    text-decoration: underline;
 }

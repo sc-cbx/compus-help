@@ -11,7 +11,7 @@
     width: 23%;
     height: 270px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     float: left;
     background-color: #f8f8f8;
@@ -22,14 +22,19 @@
 }
 .container > .content > ul > li > a > img{
     width: 220px;
-    height: 220px;
+    height: 150px;
  }
 .container > .content > ul > li > a > .price > a{
     width: 100%;
     font-size: 17px;
     color: #000000;
 }
+.container > .content > ul > li > a > .price > a:hover{
+    color: #2e2e2e;
+    text-decoration: underline;
+}
 .container > .content > ul > li > a > .price > p{
-    margin-left: 12%;
-    color: #000000;
+    font-size: 16px;
+    color: #fa4e4e;
+    margin-top: 20px;
 }

@@ -8,6 +8,8 @@ import quick_food_img from '../imgs/1 (29).png'
 import search_img from '../imgs/12.png'
 import foods_img from '../imgs/78c1d1f9654772c7c208068a27c8701d.jpeg'
 
+import Tiaozhuan from '../tiaozhuan';
+
 
 var quick_food = require('./quick_food_purchase.css')
 export default class Quick_food_purchase extends React.Component {
@@ -126,6 +128,7 @@ export default class Quick_food_purchase extends React.Component {
                                     </li>
                                 </ul> */}
                                 <Route component={Foods}></Route>
+                                <Route path="/quick_food_purchase/quick_food_purchase/tiaozhuan" component={Tiaozhuan}></Route>
                             </div>
                         </div>
                     </div>
