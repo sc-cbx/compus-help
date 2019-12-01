@@ -1,12 +1,19 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Card } from 'antd';
 
-import more from '../imgs/more.png'
+import more from '../imgs/more.png';
+import courier_help_img from '../imgs/u339599109203568703626gp0.png';
+import courier_help_imgs from '../imgs/19.png';
+
 import Header from '../Header/header';
+
 
 var cou_helps = require('./courier_helps.css')
 export default class Courier_helps extends React.Component {
     render() {
+        const { Meta } = Card;
+
         return(
             <div>
                 <Header/>
@@ -14,49 +21,70 @@ export default class Courier_helps extends React.Component {
                 {/* 快递帮拿入口 */}
                 <form action="" className={cou_helps.box}>
                     <div className={cou_helps.item_name}>
+                        <img src={courier_help_imgs}/>
                         <h3>快递帮拿</h3>
                     </div>
-                    {/*入口一*/}
+                    
                     <div className={cou_helps.frame}>
-                        <Link to="/courier_help" >
-                            <div className={cou_helps.courier_entrance1}>
-                                <Link to="/courier_help">1kg</Link>
-                            </div>
+
+                        {/*入口一*/}
+                        <Link to="/courier_helps/courier_help">
+                            <Card 
+                                hoverable 
+                                style={{ width: '24%', height: '35%' }}
+                                cover={
+                                    <img alt="example" src={courier_help_img}  
+                                        className={cou_helps.enter_imgs} />}
+                                className={cou_helps.enter}
+                            >
+                                <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
+                                    重量：
+                                    <Link to="/courier_helps/courier_help">1千克</Link>
+                                </h2>
+                                
+                            </Card>
+                        </Link>
+                    
+
+
+                        {/*入口二*/}
+                        <Link to="/courier_helps/courier_help">
+                            <Card 
+                                hoverable 
+                                style={{ width: '24%', height: '35%'}}
+                                cover={
+                                    <img alt="example" src={courier_help_img}  
+                                        className={cou_helps.enter_imgs} />}
+                                className={cou_helps.enter}
+                            >
+                                <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
+                                    重量：
+                                    <Link to="/courier_helps/courier_help">2千克</Link>
+                                </h2>
+                                
+                            </Card>
+                        </Link>
+
+
+                        {/*更多入口*/}
+                        <Link to="/courier_helps/courier_help">
+                            <Card 
+                                hoverable 
+                                style={{ width: '24%', height: '35%' }}
+                                cover={
+                                    <img alt="more" src={more}  
+                                        className={cou_helps.enter_imgs} />}
+                                className={cou_helps.enter}
+                            >
+                                <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
+                                    重量：
+                                    <Link to="/courier_helps/courier_help">更多</Link>
+                                </h2>
+                                
+                            </Card>
                         </Link>
                     </div>
 
-
-
-                    {/*入口二*/}
-                    <div className={cou_helps.frame}>
-                        <Link to="/courier_help" >
-                            <div className={cou_helps.courier_entrance2}>
-                                <Link to="/courier_help">2kg</Link>
-                            </div>
-                        </Link>
-                    </div>
-
-
-                    {/*入口三*/}
-                    <div className={cou_helps.frame}>
-                        <Link to="/courier_help" >
-                            <div className={cou_helps.courier_entrance3}>
-                                <Link to="/courier_help">4kg</Link>
-                            </div>
-                        </Link>
-                    </div>
-
-                    {/*更多入口*/}
-
-                    <div className={cou_helps.frame}>
-                        <Link to="/courier_help" >
-                            <div className={cou_helps.courier_entrance_more}>
-                                <Link to="/courier_help">
-                                    <img src={more} alt="更多"/>
-                                </Link>
-                            </div>
-                        </Link>
-                    </div>
                 </form>
             </div>
         )

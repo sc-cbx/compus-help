@@ -16,20 +16,20 @@ ul ,ol ,li{
 /*食品速购*/
 .box{
     height: 700px;
-    background-color: #fefefe;
+    /* background-color: #fefefe; */
     margin: auto;
     width: 70%;
 }
 .quick_food_title{
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
 }
 
 /* 搜索 */
 .quick_food_title > .search{
     width: 100%;
     height: 70px;
-    background-color: #efefef;
+    background-color: #fafafa;
     /* border-bottom: 2px solid #ffffff; */
 }
 .quick_food_title > .search > .search_left{
@@ -77,9 +77,8 @@ ul ,ol ,li{
 /* 食品分类 */
 .classification{
     width: 100%;
-    height: 100px;
-    float: left;
-    background-color:  #fefefe;
+    /* height: 100px; */
+    float: left; 
 }
 .classification > .cooked_foods, .snackses, .puffed_foods{
     width: 33%;
@@ -201,12 +200,12 @@ ul ,ol ,li{
 .container > .container_top{
     width: 100%;
     height: 80px;
-    background-color: #f0f0f0;
+    background-color: #fefefe;
 }
 .container > .container_top > .food_title{
     width: 100%;
     height: 40px;
-    background-color: #efefef;
+    background-color: #fafafa;
     float: left;
 }
 .container > .container_top > .food_title > h3{

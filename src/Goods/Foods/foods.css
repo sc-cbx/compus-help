@@ -14,14 +14,15 @@
     margin-top: 50px;
     text-align: center;
     float: left;
-    background-color: #f8f8f8;
+    border: 1px solid #d9d9d9;
+    /* background-color: #f8f8f8; */
 }
 .container > .content > ul > li > a{
     width: 100%;
     height: 270px;
 }
 .container > .content > ul > li > a > img{
-    width: 220px;
+    width: 100%;
     height: 150px;
  }
 .container > .content > ul > li > a > .price > a{

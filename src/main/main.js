@@ -1,6 +1,6 @@
 // 主界面路由组件
 import React from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route,Link } from "react-router-dom";
 
 
 import Courier_help from '../courier_helpls/courier_help/courier_help'
@@ -36,7 +36,7 @@ export default class Main extends React.Component{
                     {/* <Shopping_cart/> */}
 
                     {/*食品速购*/}
-                    <Quick_food_purchase/>
+                    {/* <Quick_food_purchase/> */}
 
                 </BrowserRouter>
             </div>

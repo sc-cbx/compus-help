@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './online_buy_water.css'
-import online_img from "../../imgs/互联网.png";
+import online_img from "../../imgs/24.png";
 import online_slider_img from "../../imgs/78c1d1f9654772c7c208068a27c8701d.jpeg"
 import Header from '../../Header/header';
 import And_reduce from '../../Assembly/And_reduce/and_reduce';
@@ -30,14 +30,14 @@ export default class Online_buy_water extends React.Component {
                 {/* 网上购水：内容 */}
                 <form action="" className={on_buy_wt.box}>
                     <div className={on_buy_wt.item_name}>
-                        <h3>网上购水</h3>
                         <img src={online_img} alt="网上购水"/>
+                        <h3>网上购水</h3>
                     </div>
 
                     {/*快递图片：装饰*/}
-                    <div className={on_buy_wt.online_img}>
+                    {/* <div className={on_buy_wt.online_img}>
                         <img src={online_slider_img} alt="购水图片"/>
-                    </div>
+                    </div> */}
 
                     {/*主要内容*/}
                     <div className={on_buy_wt.container}>
@@ -63,10 +63,11 @@ export default class Online_buy_water extends React.Component {
                             <div>
                                 <div className={on_buy_wt.onlinewater_numbers}>
                                     <label>数量：</label>
+                                    <div className={on_buy_wt.onlinewater_number}>
+                                        <And_reduce/>
+                                    </div>
                                 </div>
-                                <div className={on_buy_wt.onlinewater_number}>
-                                    <And_reduce/>
-                                </div>
+                                
                             </div>
                             
                             <button type="submit">提交</button>

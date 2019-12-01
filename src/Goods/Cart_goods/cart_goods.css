@@ -9,7 +9,7 @@
     width: 100%;
     height: 40px;
     line-height: 40px;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
     border-top: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     float: left;
@@ -22,7 +22,7 @@
 .container > .all_elections > .all_election > label{
     margin-left: 22px;
     font-size: 17px;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
 }
 .container > .all_elections > .all_election > input{
     position: absolute;
@@ -79,7 +79,7 @@
     width: 100%;
     margin-bottom: 20px;
     /*border: 1px solid #0f0f0f;*/
-    background-color: #efefef;
+    /* background-color: #fafafa; */
     float: left;
 }
 
@@ -89,7 +89,7 @@
     width: 100%;
     height: 40px;
     line-height: 40px;
-    background-color: #f8f8f8;
+    background-color: #fafafa;
     float: left;
 }
 .store_name > .st_name{

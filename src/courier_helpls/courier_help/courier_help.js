@@ -1,6 +1,6 @@
 import React from 'react';
 
-import cour_img from '../../imgs/courier_img.jpg'
+import courier_help_imgs from '../../imgs/19.png';
 import './courier_help.css'
 import Header from '../../Header/header';
 
@@ -29,13 +29,14 @@ export default class Courier_help extends React.Component {
                 {/* 快递帮拿：内容 */}
                 <form action="" className={cou_help.box}>
                     <div className={cou_help.item_name}>
+                        <img src={courier_help_imgs}/>
                         <h3>快递帮拿</h3>
                     </div>
 
                     {/*快递图片：装饰*/}
-                    <div className={cou_help.courier_img}>
+                    {/* <div className={cou_help.courier_img}>
                         <img src={cour_img} alt="快递图片"/>
-                    </div>
+                    </div> */}
 
                     {/*主要内容*/}
                     <div className={cou_help.container}>

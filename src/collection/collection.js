@@ -26,7 +26,7 @@ export default class Collection extends React.Component {
                                     <img src={collect_imgs}/>
                                     <h2>收藏夹</h2>
                                 </div>
-                                <span>|</span>
+                                {/* <span>|</span> */}
                                 <button className={collection.baby_collection}>宝贝收藏</button>
                                 <button className={collection.store_collection}>店铺收藏</button>
                             </div>

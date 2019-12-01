@@ -8,15 +8,15 @@
     margin: 5px 0 20px 20px;
     text-align: center;
     float: left;
-    background-color: #F8F8F8;
-    /*border: 1px solid #000;*/
+    /* background-color: #F8F8F8; */
+    border: 1px solid #d9d9d9;
 }
 .container_content > ul > li > a{
     width: 100%;
     height: 270px;
 }
 .container_content > ul > li > a > img{
-    width: 220px;
+    width: 100%;
     height: 150px;
  }
 .container_content > ul > li > a > .price > a{

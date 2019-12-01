@@ -23,13 +23,17 @@ a{
     width: 100%;
     height: 80px;
     margin-bottom: 5%;
-    background-color: #ffb0ac;
+    /* background-color: #ffb0ac; */
+    border-bottom: 2px solid #ff4777;
 }
-.item_name >h3{
+.item_name > img{
+    width: 80px;
+   float: left;
+}
+.item_name > h3{
     font-size: 50px;
-    margin-left: 10%;
-    background-color: #ffb0ac;
-    color: #fcf4ff;
+    color: #ff4777;
+    /* background-color: #ffb0ac; */
     letter-spacing: 10px;
 }
 .courier_img{
@@ -44,21 +48,21 @@ a{
     margin-left: 10%;
 }
 .container{
-    width: 40%;
-    height: 57.4%;
+    width: 100%;
+    /* height: 100%; */
     float: left;
     background-color: #ffffff;
-    border:1px solid #0f0f0f;
+    border:1px solid #d9d9d9;
     border-radius: 3px;
 }
 .courierCon{
-     margin: 4% 3%;
+     margin: 4% 8%;
  }
 .courierCon_name{
-    margin: 4% 11.5%;
+    margin: 4% 8%;
 }
 .courierCon_num{
-    margin: 4% 7.7%;
+    margin: 4% 8%;
 }
 .courierCon,.courierCon_name,.courierCon_num, label, input{
     background-color: #ffffff;
@@ -66,31 +70,36 @@ a{
 }
 .courierCon > label,.courierCon_name > label,.courierCon_num > label{
     font-size: 16px;
-    color: #0f0f0f;
+    color: #353535;
 }
 .courierCon > input,.courierCon_name > input,.courierCon_num > input{
     text-indent: 14px;
-    width: 60%;
+    width: 85%;
     height: 35px;
     color: #0f0f0f;
-    border: 1px solid #0f0f0f;
+    border: 1px solid #d9d9d9;
     border-radius: 3px;
-}
-.courierCon_name > input,.courierCon_num > input{
-    width: 30%;
+    margin-right: 2%;
+    /* margin-bottom: 20px; */
+    float: right;
 }
 .courierCon > input:hover,.courierCon_name > input:hover,.courierCon_num > input:hover{
     border: 1px solid #f46;
     background-color: #fdfdfd;
 }
 .container > button{
-    width: 20%;
-    height: 6.5%;
-    background-color: #ffb0ac;
+    width: 10%;
+    height: 35px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #ff4777;
     border: 1px solid #ffb0ac;
-    margin: 8px 39%;
+    /* margin: 8px 39%; */
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 20px;
 }
-.container > button:hover{
+/* .container > button:hover{
     background-color: #f46;
     color: #fff8fd;
-}
+} */
