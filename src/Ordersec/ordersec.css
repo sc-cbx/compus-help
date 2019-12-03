@@ -1,11 +1,12 @@
 .ad{
     width: 70%;
     height:2405px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     border: 1px solid rgb(238, 238, 238);
+    margin: auto;
 }
 .order{
-    width: 90%;
+    width: 100%;
     height: 450px;
     margin-left: 5%;
     margin-top: 30px;
@@ -31,8 +32,8 @@
 .buy{
     width: 70%;
     height: 400px;
-    margin-left: 28%;
-
+    margin-left: 3%;
+    float: right;
 }
 .di1{
     width: 100%;
@@ -45,11 +46,11 @@
     margin-top: 20px;
     font-size:1.8em;
 }
-.p1{
+.di1 > .p1{
     position: absolute;
     color: #f46;
     font-size: 1.2em;
-    margin-top: 70px;
+    margin-top: 95px;
 }
 .di2{
     width: 100%;

@@ -10,6 +10,7 @@ import Beautymakeup from './Beautymakeup/beautymakeup';
 import Foods from './Foods/foods';
 import Digital from './Digital/digital';
 import Commodity from './Commodity/commodity';
+import Footer from '../Footer/footer';
 
 
 var collection = require('./collection.css')
@@ -83,6 +84,8 @@ export default class COllection extends React.Component {
                         </div>
                     </div>
                 </BrowserRouter>
+
+                <Footer/>
             </div>
 
         )

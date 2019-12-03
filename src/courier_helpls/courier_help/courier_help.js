@@ -3,6 +3,7 @@ import React from 'react';
 import courier_help_imgs from '../../imgs/19.png';
 import './courier_help.css'
 import Header from '../../Header/header';
+import Footer from '../../Footer/footer';
 
 
 var cou_help = require('./courier_help.css')
@@ -75,6 +76,7 @@ export default class Courier_help extends React.Component {
                         <button type="submit">提交</button>
                     </div>
                 </form>
+                <Footer/>
             </div>
         )
     }

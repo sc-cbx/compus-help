@@ -4,6 +4,13 @@ import { Form,Modal, Input, Button ,BackTop} from 'antd';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
 var BuysecCss=require('./buysec.css');
+
+function success() {
+    Modal.success({
+      content: '购买成功！'
+    });
+    window.location.href="/homepage";
+  }
 export default class Buysec extends React.Component{
     render(){
         return(
@@ -32,7 +39,7 @@ export default class Buysec extends React.Component{
                                 <h1 className={BuysecCss.h2}>备注：</h1>
                                 <Input className={BuysecCss.in4} placeholder="选填" />
                             </Form.Item>
-                            <Button className={BuysecCss.bu}><Link >确定并立即购买</Link></Button>
+                            <Button className={BuysecCss.bu} onClick={success}><Link >确定并立即购买</Link></Button>
                         </Form>
                     </div>
                 </div>

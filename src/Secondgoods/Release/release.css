@@ -14,34 +14,40 @@
       border: 1px solid rgb(240, 240, 240);
   }
   .form{
-      width: 80%;
+      width: 100%;
       height: 800px;
-      margin-left: 10%;
+      margin-top: 30px;
   }
   .item{
       width: 100%;
       height: 50px;
+      float: left;
   }
   .h1{
       width: 117px;
       height: 50px;
-      float: left;
       font-size: 1.5em;
       color: gray;
       letter-spacing: 2px;
+      margin-left: 7%;
+      float: left;
 
   }
   .in1{
-      width: 88.5%;
+      width: 75%;
       height: 50px;
-
+      margin-right: 6%;
+      float: right;
   }
   .suc{
       width: 100px;
       height: 50px;
-      margin-left: 90%;
+      margin-left: 85%;
       margin-top: 30px;
       font-size: 1.4em;
       color: aliceblue;
       background-color: rgb(255, 89, 120);
+  }
+  .item1{
+      margin-left: 19.5%;
   }

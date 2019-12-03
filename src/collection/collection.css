@@ -16,10 +16,10 @@ ul ,ol ,li{
 
 /*收藏*/
 .box{
-    height: 700px;
     background-color: #fefefe;
     margin: auto;
     width: 70%;
+    height: 1400px;
 }
 .collection_title{
     width: 100%;

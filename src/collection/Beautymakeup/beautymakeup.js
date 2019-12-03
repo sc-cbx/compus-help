@@ -15,85 +15,85 @@ export default class Beautymakeup extends React.Component {
                 <div className={beautymakeup.container_content}>
                     <ul>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/ordersec/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         
                     </ul>                     

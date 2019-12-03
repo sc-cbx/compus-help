@@ -55,7 +55,7 @@
     font-size: 18px;
     color: #ff4466;
 }
-.container > .all_elections > .Settlement > .settlement{
+.container > .all_elections > .Settlement > a > .settlement{
     width: 60px;
     height: 30px;
     line-height: 30px;
@@ -66,7 +66,7 @@
     border-bottom: 2px solid #f9f9f9;
     border-right: 2px solid #f9f9f9;
 }
-.container > .all_elections > .Settlement > .settlement:hover{
+.container > .all_elections > .Settlement > a > .settlement:hover{
     background-color: #ff476a;
 }
 

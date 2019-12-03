@@ -5,6 +5,7 @@ import Header from "../Header/header";
 import shop_cart_imgs from '../imgs/1 (10).png'
 
 import Cart_goods from './Cart_goods/cart_goods'
+import Footer from '../Footer/footer';
 
 var shop_cart = require('./shopping_cart.css')
 export default class Shopping_cart extends React.Component {
@@ -43,6 +44,7 @@ export default class Shopping_cart extends React.Component {
                         </div>
                     </div>
                 </BrowserRouter>
+                <Footer/>
             </div>
 
         )

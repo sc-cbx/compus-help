@@ -15,11 +15,10 @@ a{
 /*快递帮拿入口*/
 
 .box{
-    height: 700px;
     background-color: #fefefe;
     margin: auto;
     width: 70%;
-
+    height: 700px;
 }
 .box > .item_name{
     width: 100%;

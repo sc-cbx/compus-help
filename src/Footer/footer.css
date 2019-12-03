@@ -2,6 +2,7 @@
     width: 100%;
     height: 400px;
     background-color: rgb(252, 89, 119);
+    float: left;
 }
 .loimg{
     width: 150px;

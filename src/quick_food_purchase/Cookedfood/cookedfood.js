@@ -15,94 +15,94 @@ export default class Cookedfood extends React.Component {
                 <div className={cookedfood.content}>
                     <ul>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">康师傅方便面单桶泡面 已泡好</Link>
+                                    <a herf="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>                     
                 </div>         

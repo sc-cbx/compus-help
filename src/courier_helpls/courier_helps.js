@@ -7,6 +7,7 @@ import courier_help_img from '../imgs/u339599109203568703626gp0.png';
 import courier_help_imgs from '../imgs/19.png';
 
 import Header from '../Header/header';
+import Footer from '../Footer/footer';
 
 
 var cou_helps = require('./courier_helps.css')
@@ -86,6 +87,7 @@ export default class Courier_helps extends React.Component {
                     </div>
 
                 </form>
+                <Footer/>
             </div>
         )
     }

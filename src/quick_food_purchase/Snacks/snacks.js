@@ -15,97 +15,97 @@ export default class Snacks extends React.Component {
                 <div className={snacks.content}>
                     <ul>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <Link to="/quick_food_purchase/quick_food_purchase/tiaozhuan">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</Link>
+                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>                     
-                </div>              
+                </div>            
             </div>
         );
     }

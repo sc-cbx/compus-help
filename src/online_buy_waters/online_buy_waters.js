@@ -5,6 +5,7 @@ import { Card } from 'antd';
 import onliner_img from '../imgs/30638047562372970443260.jpg'
 import online_img from "../imgs/24.png";
 import Header from '../Header/header';
+import Footer from '../Footer/footer';
 
 var on_buy_wts = require('./online_buy_waters.css')
 export default class Online_buy_waters extends React.Component {
@@ -81,6 +82,7 @@ export default class Online_buy_waters extends React.Component {
                         </Link>
                     </div>
                 </form>
+                <Footer/>
             </div>
         )
     }

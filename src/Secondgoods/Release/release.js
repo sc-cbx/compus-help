@@ -70,15 +70,15 @@ export default class Release extends React.Component{
                             <Input className={ReleaseCss.in1}/>
                         </Form.Item>
                         <Form.Item className={ReleaseCss.item}>
-                            <h3 className={ReleaseCss.h1}>成色：</h3>
+                            <h2 className={ReleaseCss.h1}>成色：</h2>
                             <Input className={ReleaseCss.in1}/>
                         </Form.Item>
                         <Form.Item className={ReleaseCss.item}>
-                            <h4 className={ReleaseCss.h1}>联系方式：</h4>
+                            <h2 className={ReleaseCss.h1}>联系方式：</h2>
                             <Input className={ReleaseCss.in1}/>
                         </Form.Item>
                         <Form.Item className={ReleaseCss.item}>
-                            <h5 className={ReleaseCss.h1}>宝贝介绍：</h5>
+                            <h2 className={ReleaseCss.h1}>宝贝介绍：</h2>
                             <Input className={ReleaseCss.in1}/>
                         </Form.Item>
                         <Form.Item className={ReleaseCss.item1}>

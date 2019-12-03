@@ -5,6 +5,7 @@ import online_img from "../../imgs/24.png";
 import online_slider_img from "../../imgs/78c1d1f9654772c7c208068a27c8701d.jpeg"
 import Header from '../../Header/header';
 import And_reduce from '../../Assembly/And_reduce/and_reduce';
+import Footer from '../../Footer/footer';
 
 var on_buy_wt = require('./online_buy_water.css')
 export default class Online_buy_water extends React.Component {
@@ -74,6 +75,7 @@ export default class Online_buy_water extends React.Component {
                         </div>
                     </div>
                 </form>
+                <Footer/>
             </div>
         )
     }

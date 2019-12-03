@@ -15,103 +15,103 @@ export default class Staplefood extends React.Component {
                 <div className={staplefood.content}>
                     <ul>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/quick_food_purchase">
+                            <a href="/ordersec/details">
                                 <img src={mianbao} alt="食品图片"/>
                                 <div className={staplefood.price}>
-                                    <Link to="/quick_food_purchase">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</Link>
+                                    <a href="/ordersec/details">休闲农场三明治蒸蛋糕营养早餐夹心网红零食品小面包小吃点心*1</a>
                                     <p>￥4.50</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>                     
                 </div>

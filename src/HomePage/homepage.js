@@ -95,7 +95,7 @@ export default class HomePage extends React.Component{
                                     </div>
                                     <div className={HomePageCss.picd}>
                                         <div className={HomePageCss.pics}>
-                                            <a target="_blank" rel="noopener noreferrer" href="/quick_food_purchase/foods" className={HomePageCss.pica}>
+                                            <a target="_blank" rel="noopener noreferrer" href="/ordersec/details" className={HomePageCss.pica}>
                                                 <div className={HomePageCss.pd1}><img src={require("../imgs/t1.png")} className={HomePageCss.pic} /></div>
                                                 <div className={HomePageCss.pd2}>
                                                     <h2 className={HomePageCss.pich}>阿宽红油面皮速食品拌面袋装啊宽宿舍即食方便面泡面麻酱凉皮</h2>
@@ -103,7 +103,7 @@ export default class HomePage extends React.Component{
                                                     <p className={HomePageCss.picp2}>4元/包</p>
                                                 </div>
                                             </a>
-                                            <a target="_blank" rel="noopener noreferrer" href="/quick_food_purchase/foods"  className={HomePageCss.pica}>
+                                            <a target="_blank" rel="noopener noreferrer" href="/ordersec/details"  className={HomePageCss.pica}>
                                                 <div className={HomePageCss.pd1}><img src={require("../imgs/t2.png")} className={HomePageCss.pic} /></div>
                                                 <div className={HomePageCss.pd2}>
                                                     <h2 className={HomePageCss.pich}>嗨吃家酸辣粉正宗网红酸辣粉桶装速食粉丝米线</h2>
@@ -111,7 +111,7 @@ export default class HomePage extends React.Component{
                                                     <p className={HomePageCss.picp2}>6元/桶</p>
                                                 </div>
                                             </a>
-                                            <a target="_blank" rel="noopener noreferrer" href="/quick_food_purchase/foods"  className={HomePageCss.pica}>
+                                            <a target="_blank" rel="noopener noreferrer" href="/ordersec/details"  className={HomePageCss.pica}>
                                                 <div className={HomePageCss.pd1}><img src={require("../imgs/t3.png")} className={HomePageCss.pic} /></div>
                                                 <div className={HomePageCss.pd2}>
                                                     <h2 className={HomePageCss.pich}>韩太螺蛳粉广西正宗螺丝粉速食方便面酸辣粉米粉螺狮粉</h2>
@@ -119,7 +119,7 @@ export default class HomePage extends React.Component{
                                                     <p className={HomePageCss.picp2}>4元/包</p>
                                                 </div>
                                             </a>
-                                            <a target="_blank" rel="noopener noreferrer" href="/quick_food_purchase/foods"  className={HomePageCss.pica}>
+                                            <a target="_blank" rel="noopener noreferrer" href="/ordersec/details"  className={HomePageCss.pica}>
                                                 <div className={HomePageCss.pd1}><img src={require("../imgs/t4.png")} className={HomePageCss.pic} /></div>
                                                 <div className={HomePageCss.pd2}>
                                                     <h2 className={HomePageCss.pich}>韩太火鸡面国产方便面网红速食超辣干拌炸酱面料袋装泡面</h2>

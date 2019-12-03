@@ -16,6 +16,7 @@ import Cookedfood from './Cookedfood/cookedfood';
 import Staplefood from './Staplefood/staplefood';
 import Snacks from './Snacks/snacks';
 import Foods from './Foods/foods';
+import Footer from '../Footer/footer';
 
 var quick_food = require('./quick_food_purchase.css')
 export default class Quick_food_purchase extends React.Component {
@@ -119,6 +120,8 @@ export default class Quick_food_purchase extends React.Component {
                         </div>
                     </div>
                 </BrowserRouter>
+               
+                <Footer/>
             </div>
             
             
