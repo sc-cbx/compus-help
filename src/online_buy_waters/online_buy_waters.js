@@ -23,7 +23,7 @@ export default class Online_buy_waters extends React.Component {
                     {/*入口一*/}
                     <div className={on_buy_wts.frame}>
                         
-                        <Link to="/online_buy_waters/online_buy_water">
+                        <Link to="/online_buy_water">
                             <Card 
                                 hoverable 
                                 style={{ width: '22%', height: '35%' }}
@@ -32,13 +32,13 @@ export default class Online_buy_waters extends React.Component {
                                             className={on_buy_wts.enter_imgs} />}
                                 className={on_buy_wts.enter}
                             >
-                                <Link to="/online_buy_waters/online_buy_water">一公寓</Link>    
+                                <Link to="/online_buy_water">一公寓</Link>    
                             </Card>
                         </Link>
 
 
                         {/*入口二*/}
-                        <Link to="/online_buy_waters/online_buy_water">
+                        <Link to="/online_buy_water">
                             <Card 
                                 hoverable 
                                 style={{ width: '22%', height: '35%' }}
@@ -47,13 +47,13 @@ export default class Online_buy_waters extends React.Component {
                                             className={on_buy_wts.enter_imgs} />}
                                 className={on_buy_wts.enter}
                             >
-                                <Link to="/online_buy_waters/online_buy_water">二公寓</Link>    
+                                <Link to="/online_buy_water">二公寓</Link>    
                             </Card>
                         </Link>
 
 
                         {/*入口三*/}
-                        <Link to="/online_buy_waters/online_buy_water">
+                        <Link to="/online_buy_water">
                             <Card 
                                 hoverable 
                                 style={{ width: '22%', height: '35%' }}
@@ -62,12 +62,12 @@ export default class Online_buy_waters extends React.Component {
                                             className={on_buy_wts.enter_imgs} />}
                                 className={on_buy_wts.enter}
                             >
-                                <Link to="/online_buy_waters/online_buy_water">三公寓</Link>    
+                                <Link to="/online_buy_water">三公寓</Link>    
                             </Card>
                         </Link>
 
                         {/*入口四*/}
-                        <Link to="/online_buy_waters/online_buy_water">
+                        <Link to="/online_buy_water">
                             <Card 
                                 hoverable 
                                 style={{ width: '22%', height: '35%' }}
@@ -76,7 +76,7 @@ export default class Online_buy_waters extends React.Component {
                                             className={on_buy_wts.enter_imgs} />}
                                 className={on_buy_wts.enter}
                             >
-                                <Link to="/online_buy_waters/online_buy_water">四公寓</Link>    
+                                <Link to="/online_buy_water">四公寓</Link>    
                             </Card>
                         </Link>
                     </div>

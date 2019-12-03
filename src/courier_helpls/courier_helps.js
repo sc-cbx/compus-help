@@ -28,7 +28,7 @@ export default class Courier_helps extends React.Component {
                     <div className={cou_helps.frame}>
 
                         {/*入口一*/}
-                        <Link to="/courier_helps/courier_help">
+                        <Link to="/courier_help">
                             <Card 
                                 hoverable 
                                 style={{ width: '24%', height: '35%' }}
@@ -39,7 +39,7 @@ export default class Courier_helps extends React.Component {
                             >
                                 <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
                                     重量：
-                                    <Link to="/courier_helps/courier_help">1千克</Link>
+                                    <Link to="/courier_help">1千克</Link>
                                 </h2>
                                 
                             </Card>
@@ -48,7 +48,7 @@ export default class Courier_helps extends React.Component {
 
 
                         {/*入口二*/}
-                        <Link to="/courier_helps/courier_help">
+                        <Link to="/courier_help">
                             <Card 
                                 hoverable 
                                 style={{ width: '24%', height: '35%'}}
@@ -59,7 +59,7 @@ export default class Courier_helps extends React.Component {
                             >
                                 <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
                                     重量：
-                                    <Link to="/courier_helps/courier_help">2千克</Link>
+                                    <Link to="/courier_help">2千克</Link>
                                 </h2>
                                 
                             </Card>
@@ -67,7 +67,7 @@ export default class Courier_helps extends React.Component {
 
 
                         {/*更多入口*/}
-                        <Link to="/courier_helps/courier_help">
+                        <Link to="/courier_help">
                             <Card 
                                 hoverable 
                                 style={{ width: '24%', height: '35%' }}
@@ -78,7 +78,7 @@ export default class Courier_helps extends React.Component {
                             >
                                 <h2 style={{fontSize: '25px',letterSpacing: '3px',marginTop: '15%',marginLeft: '10%'}}>
                                     重量：
-                                    <Link to="/courier_helps/courier_help">更多</Link>
+                                    <Link to="/courier_help">更多</Link>
                                 </h2>
                                 
                             </Card>

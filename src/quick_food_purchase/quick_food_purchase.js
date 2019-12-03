@@ -2,17 +2,29 @@ import React from 'react';
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import Header from '../Header/header';
 
-import Foods from '../Goods/Foods/foods'
+
 
 import quick_food_img from '../imgs/1 (29).png'
 import search_img from '../imgs/12.png'
-import foods_img from '../imgs/78c1d1f9654772c7c208068a27c8701d.jpeg'
+import shushi from '../imgs/22.png'
+import lingshi from '../imgs/23.png'
+import penghua from '../imgs/fugkj.png'
 
-import Tiaozhuan from '../tiaozhuan';
 
+
+import Cookedfood from './Cookedfood/cookedfood';
+import Staplefood from './Staplefood/staplefood';
+import Snacks from './Snacks/snacks';
+import Foods from './Foods/foods';
 
 var quick_food = require('./quick_food_purchase.css')
 export default class Quick_food_purchase extends React.Component {
+    constructor(){
+        super();
+        this.state={
+            
+        };
+    }
     render() {
         return(
             <div>
@@ -44,38 +56,38 @@ export default class Quick_food_purchase extends React.Component {
                             <div className={quick_food.classification}>
                                 <div className={quick_food.cooked_foods}>
                                     <div className={quick_food.cooked_food}>
-                                        <Link to="/foods">熟食</Link>
-                                        <img src={foods_img} alt="食品图片"/>
+                                        <Link to="/cookedfood">熟食</Link>
+                                        <img src={shushi} alt="食品图片"/>
                                     </div>
-                                    <Link to="/foods">泡面</Link>
+                                    <Link to="/cookedfood">泡面</Link>
                                     <span>|</span>
-                                    <Link to="/foods">早餐</Link>
+                                    <Link to="/staplefood">早餐</Link>
                                     <span>|</span>
-                                    <Link to="/foods">正餐</Link>
+                                    <Link to="/staplefood">正餐</Link>
                                 </div>
 
                                 <div className={quick_food.snackses}>
                                     <div className={quick_food.snacks}>
-                                        <Link to="foods">零食</Link>
-                                        <img src={foods_img} alt="食品图片"/>
+                                        <Link to="/snacks">零食</Link>
+                                        <img src={lingshi} alt="食品图片"/>
                                     </div>
-                                    <Link to="/foods">瓜子</Link>
+                                    <Link to="/snacks">瓜子</Link>
                                     <span>|</span>
-                                    <Link to="/foods">辣条</Link>
+                                    <Link to="/snacks">辣条</Link>
                                     <span>|</span>
-                                    <Link to="/foods">饮料</Link>
+                                    <Link to="/snacks">饮料</Link>
                                 </div>
 
                                 <div className={quick_food.puffed_foods}>
                                     <div className={quick_food.puffed_food}>
-                                        <Link to="/foods">膨化</Link>
-                                        <img src={foods_img} alt="食品图片"/>
+                                        <Link to="/staplefood">膨化</Link>
+                                        <img src={penghua} alt="食品图片"/>
                                     </div>
-                                    <Link to="/foods">饼干</Link>
+                                    <Link to="/staplefood">饼干</Link>
                                     <span>|</span>
-                                    <Link to="/foods">面包</Link>
+                                    <Link to="/staplefood">面包</Link>
                                     <span>|</span>
-                                    <Link to="/foods">薯片</Link>
+                                    <Link to="/snacks">薯片</Link>
                                 </div>
                             </div>
                         </div>
@@ -98,37 +110,11 @@ export default class Quick_food_purchase extends React.Component {
 
                             {/* 食品：主要内容 */}
                             <div className={quick_food.content}>
-                                {/* <ul>
-                                    <li>
-                                        <Link to="/quick_food_purchase">
-                                            <img src={foods_img} alt="食品图片"/>
-                                            <div className={quick_food.price}>
-                                                <Link to="/quick_food_purchase">瓜子</Link>
-                                                <p>￥6.00</p>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/quick_food_purchase">
-                                            <img src={foods_img} alt="食品图片"/>
-                                            <div className={quick_food.price}>
-                                                <Link to="/quick_food_purchase">瓜子</Link>
-                                                <p>￥6.00</p>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/quick_food_purchase">
-                                            <img src={foods_img} alt="食品图片"/>
-                                            <div className={quick_food.price}>
-                                                <Link to="/quick_food_purchase">瓜子</Link>
-                                                <p>￥6.00</p>
-                                            </div>
-                                        </Link>
-                                    </li>
-                                </ul> */}
-                                <Route component={Foods}></Route>
-                                <Route path="/quick_food_purchase/quick_food_purchase/tiaozhuan" component={Tiaozhuan}></Route>
+                                <Route path="/foods" component={Foods}></Route>
+                                <Route path="/cookedfood" component={Cookedfood}></Route>
+                                <Route path="/staplefood" component={Staplefood}></Route>
+                                <Route path="/snacks" component={Snacks}></Route>
+
                             </div>
                         </div>
                     </div>

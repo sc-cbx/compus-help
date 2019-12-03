@@ -4,7 +4,7 @@ import Header from "../Header/header";
 
 import shop_cart_imgs from '../imgs/1 (10).png'
 
-import Cart_goods from '../Goods/Cart_goods/cart_goods'
+import Cart_goods from './Cart_goods/cart_goods'
 
 var shop_cart = require('./shopping_cart.css')
 export default class Shopping_cart extends React.Component {
@@ -24,9 +24,9 @@ export default class Shopping_cart extends React.Component {
                                 <h2>购物车</h2>
                             </div>
                         </div>      
-                        <div className={shop_cart.classifications}>     
-                            {/* <div className={shop_cart.cltions}> */}
-                                {/*全部分类*/}
+                        <div className={shop_cart.classifications}>   
+                          
+                            {/*全部分类*/}
                             <div className={shop_cart.cltions_left}>
                                 <Link to="/cart_goods">全部商品</Link>
                                 <span>|</span>
@@ -34,12 +34,10 @@ export default class Shopping_cart extends React.Component {
                                 <span>|</span>
                                 <Link to="/cart_goods">商品不存在</Link>
                             </div>
-                            {/* </div> */}  
 
                             {/* 购物车：主要内容 */}
                             <div className={shop_cart.container}>
-
-                                <Route component={Cart_goods}></Route>
+                                <Route path="/cart_goods" component={Cart_goods}></Route>
                             </div>
 
                         </div>

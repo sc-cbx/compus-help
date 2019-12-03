@@ -1,31 +1,33 @@
 .header{
     width: 100%;
-    height: 35px;
-    background-color:rgb(243, 243, 243);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  
+    height: 150px;
+    
 }
 .div{
+    width: 100%;
+    height: 35px;
+    background-color:#f5f5f5;
+    border-bottom:1px solid #e7e7e7;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
-    width: 1190px;
-    height: 35px;
 }
 .first{
     width: 400px;
     height: 35px;
-    margin-left: 900px;
+    margin-left: 70%;
     line-height: 35px;
 }
+.link{
+    color: gray;
+        
+}
+/* 首页 */
 .firstli{
     list-style: none;
     width: 70px;
     height: 35px;
-    
     float: left;
     list-style: none;
 }
@@ -45,8 +47,9 @@
     list-style: none;
     float: left;
 }
+/* 订单 */
 .order{
-    width: 70px;
+    width: 80px;
     height: 35px;
     list-style: none;
     float: left;
@@ -57,3 +60,162 @@
     margin-left: 5px;
     color: #999;
 }
+/* 关于我们 */
+.us{
+    width: 75px;
+    height: 35px;
+    list-style: none;
+    float: left;
+
+}
+.dro{
+    width: 75px;
+    float: left;
+    color: #999;
+}
+.dc{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* // 搜索 */
+.search{
+    width: 100%;
+    height: 115px;
+    background-color: #fcfcfc;
+    border:1px solid #f5f5f5;
+    /* background-color: darkgoldenrod; */
+}
+.search ul{
+    padding: 0;
+    /* background-color: darkmagenta; */
+    display: inline-block;
+    width: 100%;
+    height: 115px;
+}
+.search_center{
+    width: 70%;
+    height: 115px;
+    /* background-color: darkorange; */
+    margin: auto;
+    
+}
+/* .search ul li{
+    width: 100px;
+    height: 115px;
+    float: left;
+    background-color: rgb(153, 225, 30);
+} */
+ .lilogo{
+     float: left;
+     width: 272px;
+     height: 115px;
+     /* background-color: darkred; */
+     list-style: none;
+     line-height: 115px;
+     /* margin: 0;
+     padding: 0;
+    list-style: none;
+    float: left;
+    width: 200px;
+    height: 115px;
+    margin-left: 12%;
+    line-height: 115px;
+    background-color: darkgreen;  */
+}
+
+.lisearch{
+ 
+    float: left;
+    width: 530px;
+    height: 115px;
+    /* background-color: rgb(0, 120, 139); */
+    list-style: none;
+    line-height: 115px;
+    /* width: 550px;
+    background-color: rgb(185, 153, 201);
+    list-style: none;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    margin-left: 14.2%; */
+}
+
+.input{
+    width: 500px;
+    height: 50px;
+    border-radius: 90px;
+    /* background-color: darkseagreen; */
+    
+}
+
+.linews{
+    float: left;
+    width: 80px;
+    height: 115px;
+    /* background-color: rgb(132, 139, 0); */
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+    /* list-style: none;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    margin-left: 6%;
+    background-color: darkcyan; */
+} 
+ .liCollection{
+    float: left;
+    width: 80px;
+    height: 115px;
+    /* background-color: rgb(0, 46, 139); */
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+ 
+    
+    /* list-style: none;
+    float: left;
+    height: 115px;
+    line-height: 115px;
+    margin-left: 1%;
+    background-color: red; */
+}
+.lishop{
+    float: left;
+    width: 100px;
+    height: 115px;
+    /* background-color: rgb(0, 139, 0); */
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+    /* list-style: none;
+    height: 115px;
+    line-height: 115px;
+    margin-left:78.5%;
+    background-color: cornflowerblue; */
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(138, 165, 42); */
+}
+/*
+.imgg{
+    width: 38px;
+    height: 45px;
+    background-color: blue;
+}
+.ds{
+    font-size: 1.3em;
+    color: gray;
+    margin-left: 6px;
+    background-color: bisque;
+}
+.search ul{
+    display: inline-block;
+    background-color: aqua;
+}
+  */

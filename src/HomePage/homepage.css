@@ -1,27 +1,251 @@
-.div{
-    width: 1860px;
-    height: 1300px;
-}
-.menu{
-    width:1860px;
-    height: 45px;
-    line-height: 40px;
-    background-color: #2D94DF;;
-    display: flex;
+.homepage{
+    
+    width: 70%;
     text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.5em;
-    color: white;
+    height: 1168px;
+    background-color: #f7f7f7;
+    /* margin-left: 15%; */
+    margin: auto;
 }
-.divs{
-    width: 222px;
-    height: 45px;
-    float: left;
-    border:1px solid #4aa2e0;
+.classification{
+    position: relative;
+    width: 100%;
+    height: 405px;
+    border:1px solid #f1f1f1;
+    background-color: #f7f7f7;;
 }
 .link{
-    text-decoration: none;
-    color: whitesmoke;
+    color: gray;
 }
+/* 分类 */
+.allfication{
+    width: 25%;
+    height: 350px;
+    position: relative;
+    float: left;
+}
+.fication{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border:1px solid #f5f5f5;
+}
+.menuheader{
+    color: gray;
+}
+.submenutop{
+    margin-top: 15px;
+    height: 55px;
+    border-radius: 1px solid gray;
+}
+.submenu{
+    height: 50px;
+    border-radius: 1px solid gray;
+}
+.fispan{
+    color: gray;
+    
+ 
+    font-size: 1.3em;
+    letter-spacing: 5px;/*字间距*/
+}
+.fiicon{
+    width: 30px;
+    height: 30px;
+}
+/* 轮播图 */
+.carousel{
+    position: absolute;
+    width: 58%;
+    height: 400px;
+    margin-left: 25.5%;
+    background-color: #f7f7f7;
+}
+.rotary{
+    width: 100%;
+    height:400px;
+    
+  }
+  /* 登录注册（个人中心） */
+  .lr{
+    position: absolute;
+    width: 16%;
+    height: 400px;
+    margin-left: 84%;
+    background-color: #ffffff;
+  }
+  .tou{
+   
+      height:200px;
+  }
+  .itou{
+      margin-top: 20%;
+  }
+  .login{
+      height: 200px;
+  }
+  .lb{
+      
+      margin-left: 2px;
+  }
+  .wec{
+      width: 100%;
+      margin-top: 30%;
+      text-align: center;
+      font-size: 1.5em;
+      color: #f46;
+  }
+  /* 食品精选 */
+  .xuan{
+      width: 100%;
+      height: 765px;
+  }
+  .fh{
+    position: absolute; 
+    width: 70%;
+    height: 400px;
+}
+.more{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+  
+    background-color:#f5f5f5;
+}
+.f{
+    width:150px; 
+    height: 50px;
+    line-height: 50px;
+    font-size:1.5em;
+    color: gray;
+    float: left;
+}
+.lf{
+    color: gray;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    margin-left: 75%;
+}
+.picd{
+    
+    width: 100%;
+    height: 330px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
+}
+.pics{
+    width: 100%;
+    height: 325px;
+    float: left;
+    text-align: center;
 
+}
+.pica{
+    width:22%;
+    height: 325px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 2.4%;
+    text-align: center;
+}
+.pic{
+    text-align: center;
+    width:100%;
+    height: 150px;
+}
+.pich{
+    color:#f46;
+    margin-top: 7px;
+    font-size: 1.3em;
+}
+.picp{
+    font-size: 1.2em;
+    color: gray;
+}
+.picp2{
+    color: #f46;
+}
+/* 跳蚤市场 */
+.sec{
+  position: absolute; 
+  width: 70%;
+  height: 400px;
+  margin-top: 382px;
+}
+.smore{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+
+  background-color:#f5f5f5;
+}
+.s{
+  width:150px; 
+  height: 50px;
+  line-height: 50px;
+  font-size:1.5em;
+  color: gray;
+  float: left;
+}
+.sm{
+  color: gray;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2em;
+  margin-left: 75%;
+}
+.spicd{
+  
+  width: 100%;
+  height: 330px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
+}
+.spics{
+  width: 100%;
+  height: 325px;
+  float: left;
+  text-align: center;
+
+}
+.spica{
+  width:22%;
+  height: 325px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 2.4%;
+  text-align: center;
+}
+.spic{
+  text-align: center;
+  width:100%;
+  height: 150px;
+}
+.spich{
+  color:#f46;
+  margin-top: 7px;
+  height: 70px;
+  font-size: 1.3em;
+}
+.p1{
+    width: 25px;
+    height: 25px;
+  font-size: 1.3em;
+  color: gray;
+  float: left;
+  margin-left: 100px;
+}
+.spicp2{
+    width: 70px;
+    height: 25px;
+    margin-left: 125px;
+  color: #f46;
+  font-size: 1.5em;
+}

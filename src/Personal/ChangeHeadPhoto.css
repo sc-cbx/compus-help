@@ -1,0 +1,52 @@
+.avater{
+    width: 100%;
+    height: 630px;
+    /* background-color: brown; */
+    border: 1px solid #d9d9d9;
+   
+}
+.change_head{
+    font-weight: bolder;
+    line-height: 40px;
+    width: 95%;
+    height: 40px;
+    background-color: #fafafa;
+    margin-top: 30px;
+    padding-left: 10px;
+    float: right;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.upload_head{
+    width: 95%;
+    height: 260px;
+    /* background-color: cornflowerblue; */
+    float: right;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.headphoto{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 70px;
+}
+.button{
+    text-decoration: none;
+   
+    margin-left: 380px;
+    background-color:rgb(247, 12, 90);
+    color: white;
+    border: 1px solid rgb(247, 12, 90);
+    margin-top: 25px;
+
+}
+.button:hover{
+    background-color: white;
+    color: rgb(247, 12, 90);
+}

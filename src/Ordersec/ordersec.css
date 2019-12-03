@@ -1,0 +1,189 @@
+.ad{
+    width: 70%;
+    height:2405px;
+    margin-left: 15%;
+    border: 1px solid rgb(238, 238, 238);
+}
+.order{
+    width: 90%;
+    height: 450px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.picture{
+    width: 26%;
+    height: 400px;
+    float: left;
+    border: 1px solid rgb(221, 221, 221);
+}
+.car{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background: #364d79;
+    overflow: hidden;
+}
+.img{
+    width: 350x;
+    height: 400px;
+}
+.buy{
+    width: 70%;
+    height: 400px;
+    margin-left: 28%;
+
+}
+.di1{
+    width: 100%;
+    height: 120px;
+}
+.h1{
+    position: absolute;
+    width: 45%;
+    height: 70px;
+    margin-top: 20px;
+    font-size:1.8em;
+}
+.p1{
+    position: absolute;
+    color: #f46;
+    font-size: 1.2em;
+    margin-top: 70px;
+}
+.di2{
+    width: 100%;
+    height: 50px;
+}
+.h2{
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    color: gray;
+    float: left;
+}
+.p2{
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    color: gray;
+    float: left;
+}
+.p3{
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    color: gray;
+    margin-left: 100px;
+}
+.di3{
+    position: absolute;
+    width: 45%;
+    height: 50px;
+}
+.h3{
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    color: gray;
+    float: left;
+}
+.p4{
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    color: #f46;
+    float: left;
+}
+.p5{
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    color: #f46;
+    margin-left: 100px;
+}
+.di4{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.h{
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    color: gray;
+    float: left;
+}
+.p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+}
+.di5{
+    position: absolute;
+    width: 45%;
+    height: 50px;
+    line-height: 50px;
+    
+}
+.di6{
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+}
+.bu1{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    color: #f46;
+    background-color: #fcd8d8;
+    border: 1px solid #f46;
+}
+.bu2{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    margin-left: 240px;
+    color: white;
+    background-color:#f46;
+    border: 1px solid #f46;
+}
+.buimg{
+    width: 50px;
+    height: 50px;
+}
+.omore{
+    width: 90%;
+    height: 1925px;
+    margin-left: 5%;
+    border: 1px solid rgb(236, 236, 236);
+    
+
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.link{
+    color: gray;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    float: left;
+    font-size: 1.2em;
+    text-align: center;
+    border-right: 1px solid rgb(235, 235, 235);
+}
+.down{
+    width: 100%;
+    margin-top: 50px;
+    height: 1000px;
+}

@@ -30,7 +30,7 @@ export default class LoginPage extends React.Component {
                         </div>
                     </div>
                     <div className={LoginPageCSS.land}>
-                        <Link to="/homepage/first"><Button className={LoginPageCSS.button}>登录</Button></Link>
+                        <Link to="/homepage"><Button className={LoginPageCSS.button}>登录</Button></Link>
                     </div>
                 </div>
             </div>

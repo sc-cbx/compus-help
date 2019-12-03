@@ -102,8 +102,9 @@ ul ,ol ,li{
     color: #f46;
 }
 .classification > .cooked_foods > .cooked_food > img{
-    width: 90px;
-    margin-left: 12%;
+    width: 70px;
+    height: 70px;
+    margin-left: 18%;
     float: left;
 }
 .classification > .cooked_foods > a{
@@ -142,8 +143,9 @@ ul ,ol ,li{
     float: left;
 }
 .classification > .snackses > .snacks > img{
-    width: 90px;
-    margin-left: 12%;
+    width: 75px;
+    height: 70px;
+    margin-left: 18%;
     float: left;
 }
 .classification > .snackses > a{
@@ -176,7 +178,8 @@ ul ,ol ,li{
 }
 .classification > .puffed_foods > .puffed_food > img{
     width: 90px;
-    margin-left: 12%;
+    height: 70px;
+    margin-left: 18%;
     float: left;
 }
 .classification > .puffed_foods > a{

@@ -37,27 +37,20 @@ ul ,ol ,li{
     color: #0f0f0f;
     float: left;
 }
-/* .collection_title_left > span{
-    height: 70px;
-    line-height: 70px;
-    color: #c9c9c9;
-    font-weight: lighter;
-    font-size: 60px;
-    margin: 0 5px 0 20px;
-    float: left;
-} */
-.collection_title_left > .baby_collection,.store_collection{
+.collection_title_left > a{
     width: 10%;
     height: 40px;
     color: #0f0f0f;
     font-size: 16px;
     margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
     letter-spacing: 2px;
     background-color: #fafafa;
     border:1px solid #fafafa;
     float: left;
 }
-.collection_title_left > .baby_collection:hover,.store_collection:hover{
+.collection_title_left > .baby_collection:hover{
     background-color: #ececec;
     color: #1b1b1b;
     border:1px solid #ececec;
@@ -166,6 +159,8 @@ ul ,ol ,li{
 /*收藏内容*/
 .container_content{
     width: 100%;
+    height: 100%;
+    float: left;
 }
 
 

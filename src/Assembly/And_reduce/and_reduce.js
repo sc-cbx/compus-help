@@ -18,7 +18,6 @@ export default class And_reduce extends React.Component{
         this.setState({
             num: (this.state.num == this.props.max)?this.props.max: (this.state.num + 1)
         });
-        
     }
 
     // 减少
