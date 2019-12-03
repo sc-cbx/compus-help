@@ -5,7 +5,6 @@ import * as serviceWorker from './serviceWorker';
 import HomePage from './HomePage/homepage'
 import LoginPage from './Login/login'
 import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
-import Main from './main/main';
 
 // import Parent from './tiaozhuan';
 import Courier_help from './courier_helpls/courier_help/courier_help';
@@ -13,7 +12,6 @@ import Courier_helps from './courier_helpls/courier_helps';
 import Online_buy_waters from './online_buy_waters/online_buy_waters';
 import Online_buy_water from './online_buy_waters/online_buy_water/online_buy_water';
 import Shopping_cart from './shopping_cart/shopping_cart';
-import Collection from './collection/collection';
 import Quick_food_purchase from './quick_food_purchase/quick_food_purchase';
 
 
