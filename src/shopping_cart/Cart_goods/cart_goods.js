@@ -6,7 +6,7 @@ import guazi from '../../imgs/TB2DmkPjwnH8KJjSspcXXb3QFXa_2194810505.jpg'
 import latiao from '../../imgs/O1CN01wXiDJZ1GtwILME6a3_2200070681.jpg'
 import paomian from '../../imgs/TB28FGbgYSYBuNjSspiXXXNzpXa_2451688260.jpg'
 import binggan from '../../imgs/TB2lfK5spXXXXaaXXXXXXXXXXXX_925879943.jpg'
-import xiangji1 from '../../imgs/xq1.png'
+import fensi from '../../imgs/t2.png'
 
 import And_reduce from '../../Assembly/And_reduce/and_reduce';
 
@@ -61,10 +61,10 @@ export default class Cart_goods extends React.Component{
                             <li>
                                 <div className={cart_goods.goods}>
                                     <input type="checkbox" className={cart_goods.good} id="a_input" checked={true}/>
-                                    <img src={xiangji1} alt="商品图片"/>
+                                    <img src={fensi} alt="商品图片"/>
                                     <div className={cart_goods.price}>
-                                        <a href="/ordersec/details">富士相机mini7C傻瓜可爱7s升级套餐含拍立得相纸男女学生款入门级</a>
-                                        <h4>单价：<span>￥200.00</span></h4>
+                                        <a href="/goods/details">嗨吃家酸辣粉正宗网红酸辣粉桶装速食粉丝米线</a>
+                                        <h4>单价：<span>￥8.50</span></h4>
                                     </div>
                                     <div className={cart_goods.goods_num}>  
 
@@ -74,7 +74,7 @@ export default class Cart_goods extends React.Component{
                                         </div>
 
                                         <div className={cart_goods.all_price}>
-                                            <h3>总价：￥200.00</h3>
+                                            <h3>总价：￥8.50</h3>
                                             <a href="#">删除</a>
                                         </div>
                                     </div>
@@ -85,7 +85,7 @@ export default class Cart_goods extends React.Component{
                                     <input type="checkbox" className={cart_goods.good} id="a_input"/>
                                     <img src={latiao} alt="商品图片"/>
                                     <div className={cart_goods.price}>
-                                        <a href="/ordersec/details">大面筋112gx1童年儿时怀旧小零食90后小时候的辣条</a>
+                                        <a href="/goods/details">大面筋112gx1童年儿时怀旧小零食90后小时候的辣条</a>
                                         <h4>单价：<span>￥10.00</span></h4>
                                     </div>      
                                     <div className={cart_goods.goods_num}>  
@@ -123,7 +123,7 @@ export default class Cart_goods extends React.Component{
                                     <input type="checkbox" className={cart_goods.good}/>
                                     <img src={paomian} alt="商品图片"/>
                                     <div className={cart_goods.price}>
-                                        <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                        <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                         <h4>单价：<span>￥5.00</span></h4>
                                     </div>      
                                     <div className={cart_goods.goods_num}>   
@@ -161,7 +161,7 @@ export default class Cart_goods extends React.Component{
                                     <input type="checkbox" className={cart_goods.good}/>
                                     <img src={binggan} alt="商品图片"/>
                                     <div className={cart_goods.price}>
-                                        <a href="/ordersec/details">印尼进口丽芝士nabati纳宝帝奶酪威化饼干25g*4包零食</a>
+                                        <a href="/goods/details">印尼进口丽芝士nabati纳宝帝奶酪威化饼干25g*4包零食</a>
                                         <h4>单价：<span>￥6.00</span></h4>
                                     </div>      
                                     <div className={cart_goods.goods_num}>
@@ -183,7 +183,7 @@ export default class Cart_goods extends React.Component{
                                     <input type="checkbox" className={cart_goods.good}/>
                                     <img src={guazi} alt="商品图片"/>
                                     <div className={cart_goods.price}>
-                                        <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                        <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                         <h4>单价：<span>￥16.00</span></h4>
                                     </div>      
                                     <div className={cart_goods.goods_num}>   

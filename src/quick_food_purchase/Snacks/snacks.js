@@ -15,91 +15,91 @@ export default class Snacks extends React.Component {
                 <div className={snacks.content}>
                     <ul>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={guazi} alt="食品图片"/>
                                 <div className={snacks.price}>
-                                    <a href="/ordersec/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
+                                    <a href="/goods/details">【童年记_原味/五香味南瓜子500gx1袋】 小包新货南瓜籽坚果炒货</a>
                                     <p>￥4.50</p>
                                 </div>
                             </a>

@@ -42,6 +42,7 @@ import User_notlocked from './Personal/Safety/User_notlocked';
 import User_safety from './Personal/Safety/User_safety';
 import UserLocked from './Personal/UserLocked';
 import Personal from './Personal/personal';
+import Goods from './Goods/goods';
 
 // import Picture1 from './HomePage/First/Picture1/picture1';
 
@@ -53,7 +54,7 @@ class IndexPage extends React.Component{
             <div>
                <BrowserRouter>
                     <Switch>
-
+                        <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/courier_helps" component={Courier_helps}></Route>
                         <Route path="/courier_help" component={Courier_help}></Route>
                         <Route path="/online_buy_waters" component={Online_buy_waters}></Route>
@@ -61,17 +62,16 @@ class IndexPage extends React.Component{
                         <Route path="/shopping_cart" component={Shopping_cart}></Route>
                         <Route path="/collection" component={COllection}></Route>
                         <Route path="/quick_food_purchase" component={Quick_food_purchase}></Route>
-
-                        <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/secondgoods" component={Secondgoods}></Route>
                         <Route path="/login" component={LoginPage}></Route>
                         <Route path="/myorder" component={Myorder}></Route>
                         <Route path="/news" component={News}></Route>
                         <Route path="/register" component={Register}></Route>
                         <Route path="/guarantee" component={Guarantee}></Route>
-     
+                        <Route path="/personal" component={Personal}></Route>
                         <Route path="/us" component={Us}></Route>
                         <Route path="/ordersec" component={Ordersec}></Route>
+                        <Route path="/goods" component={Goods}></Route>
                         <Route path="/buysec" component={Buysec}></Route>
                         <Route path="/release" component={Release}></Route>
                         <Route path="/expresshelp" component={Expresshelp}></Route>
@@ -79,19 +79,16 @@ class IndexPage extends React.Component{
                         <Route path="/repair" component={Repair}></Route>
                         <Route path="/helpdetails" component={Helpdetails}></Route>
                         <Route path="/helprelease" component={Helprelease}></Route>
-                   
-                        <Redirect to="/homepage"></Redirect>
-
-
-                        <Route path="/zhanghao_card_add" component={ZhangHao_card_add}></Route>
-                        <Route path ="/forgetpassword" component={ForgetPassword}></Route>
-                        <Route path="/mywallet" component={MyWallet}></Route>
-                        <Route path="/personal" component={Personal}></Route>
+                        <Route path="/forgetpassword" component={ForgetPassword}></Route>
                         <Route path="/userlocked" component={UserLocked}></Route>
                         <Route path="/user_locked" component={User_locked}></Route>
                         <Route path="/user_notlocked" component={User_notlocked}></Route>
                         <Route path="/user_safety" component={User_safety}></Route>
-
+                        <Route path="/mywallet" component={MyWallet}></Route>
+                        <Route path="/zhanghao_card_add" component={ZhangHao_card_add}></Route>
+                        {/*<Route component={Main}/> */}{/* 默认路由 */}
+                   
+                        <Redirect to="/homepage"></Redirect>
                   
                     </Switch>
                </BrowserRouter>

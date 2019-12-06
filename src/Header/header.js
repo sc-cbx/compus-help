@@ -71,7 +71,7 @@ export default class Header extends React.Component{
                             <li className={HeaderCss.separate}>|</li>
                             <li className={HeaderCss.order}>
                                 <div className={HeaderCss.myorder}>
-                                    <span className={HeaderCss.span}><Link to="/myorder" className={HeaderCss.link}>我的订单</Link></span>
+                                    <span className={HeaderCss.span}><Link to="/personal/allorder/no_buy_one" className={HeaderCss.link}>我的订单</Link></span>
                                 </div>
                             </li>
                             <li className={HeaderCss.us}>
@@ -92,7 +92,10 @@ export default class Header extends React.Component{
                             {/* logo */}
                             <li className={HeaderCss.lilogo}>
                                 <div>
-                                    <Link to="/homepage"><img src={require('./../imgs/11.png')} className={HeaderCss.img}></img></Link>
+                                    <Link to="/homepage">
+                                        <img src={require('./../imgs/11.png')} className={HeaderCss.img}></img>
+                                        <img src={require('./../imgs/logo.png')} className={HeaderCss.logo_img}></img>
+                                    </Link>
                                 </div>
                             </li>
                             {/* 搜索 */}
@@ -106,7 +109,7 @@ export default class Header extends React.Component{
                                     <span>
                                         <img src={require('./../imgs/6.png')} className={HeaderCss.img}></img>
                                     </span>
-                                    <span className={HeaderCss.ds}><Link to="/news"  className={HeaderCss.link}>消息</Link></span>
+                                    <span className={HeaderCss.ds}><Link to="/personal/news"  className={HeaderCss.link}>消息</Link></span>
                                 </div>
                             </li>
                             <li className={HeaderCss.liCollection}>

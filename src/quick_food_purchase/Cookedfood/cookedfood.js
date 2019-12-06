@@ -15,88 +15,88 @@ export default class Cookedfood extends React.Component {
                 <div className={cookedfood.content}>
                     <ul>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
-                                    <a href="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>
+                                    <a href="/goods/details">康师傅方便面单桶泡面 已泡好</a>
                                     <p>￥5.00</p>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="/ordersec/details">
+                            <a href="/goods/details">
                                 <img src={paomian} alt="食品图片"/>
                                 <div className={cookedfood.price}>
                                     <a herf="/ordersec/details">康师傅方便面单桶泡面 已泡好</a>

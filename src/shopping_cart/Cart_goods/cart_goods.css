@@ -153,6 +153,7 @@
 .goods > .price > a{
     font-size: 14px;
     color: #0f0f0f;
+    /* text-align: center; */
     margin-left: 10%;
     margin-top: 3px;
 }

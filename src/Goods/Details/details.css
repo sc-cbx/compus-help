@@ -1,0 +1,36 @@
+.div{
+    width: 90%;
+    height: 1850px;
+    margin-left: 5%;
+    margin-top: 70px;
+}
+.gd{
+    width: 100%;
+    height: 100px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+.dh2{
+    width: 100%;
+    height: 30px;
+    color: gray;
+}
+.dp{
+    width: 100%;
+    height: 60px;
+    font-size: 1.2em;
+    color: gray;
+}
+.dd{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.dpic{
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.mimg{
+    width: 100%;
+    height: 400px;
+}

@@ -202,6 +202,11 @@
     height: 40px;
     /* background-color: rgb(138, 165, 42); */
 }
+.logo_img{
+    width: 150px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
 /*
 .imgg{
     width: 38px;
