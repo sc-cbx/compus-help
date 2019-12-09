@@ -1,0 +1,75 @@
+.all{
+    width: 100%;
+    height: 630px;
+    /* background-color: brown; */
+    border: 1px solid #d9d9d9;
+
+}
+.title{
+    font-weight: bolder;
+    line-height: 40px;
+    width: 95%;
+    height: 40px;
+    background-color: #fafafa;
+    margin-top: 30px;
+    padding-left: 10px;
+    float: right;
+    border-top: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.center{
+    width: 95%;
+    height: 260px;
+    /* background-color: cornflowerblue; */
+    float: right;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.center p{
+    margin-top: 50px;
+    padding-left: 200px;
+    color: red;
+}
+.youxiang{
+
+    margin-top: 30px;
+    padding-left: 200px;
+}
+.youxiang tr{
+    width: 200px;
+    height: 45px;
+ 
+    
+}
+.input{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border:none;
+    border:1px solid #d9d9d9;
+    padding-left: 10px;
+}
+
+.yanzhenma{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    outline: none;
+    border:none;
+    background-color: #d9d9d9;
+    margin-left: 10px;
+
+}
+.submit{
+    width: 100px;
+    height: 35px;
+    background-color: #ff4777;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 70px;
+}

@@ -1,0 +1,150 @@
+.all{
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+}
+.shousuo{
+    width: 95%;
+    height: 30px;
+    float: right;
+    margin-top: 30px;
+}
+.shousuo_center{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.shousuo_left{
+    width: 85%;
+    height: 100%;
+    float: left;
+    text-decoration: none;
+}
+.shousuo_left input{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    outline: none;
+    border: none;
+    border: 1px solid #d9d9d9;
+    padding-left: 10px;
+}
+.shousuo_right{
+    font-size: 12px;
+    border-top: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+    line-height: 30px;
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #f3f4f9;
+}
+.allorder_list{
+    margin-top: 30px;
+    width: 95%;
+    height: 40px;
+    float: right;
+    background-color: #fafafa;
+
+}
+.allorder_list ul{
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding: 0px;
+  
+}
+.allorder_list ul li{
+    /* line-height: 40px;
+    padding-left: 50px;
+    width: 100px;
+    height: 40px; */
+    text-align: center;
+    line-height: 40px;
+    font-weight:bolder;
+    font-size: 12px;
+    float: left;
+    /* background-color: darkgreen; */
+}
+.goods{
+    width: 30%;
+    height: 40px;
+    
+}
+.price{
+    width: 12%;
+    height: 40px;
+    
+}
+.quantity{
+    width: 10%;
+    height: 40px;
+}
+.aftersale{
+    width: 12%;
+    height: 40px;
+}
+.total{
+    width: 12%;
+    height: 40px;
+}
+.status{
+    width: 12%;
+    height: 40px;
+}
+.other{
+    width: 12%;
+    height: 40px;
+}
+.allorder_bottom{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    margin-top: 180px;
+    /* background-color: aqua; */
+}
+
+.zuo{
+    width: 30%;
+    height: 200px;
+    float: left;
+    
+}
+.you{
+    width: 70%;
+    height: 200px;
+    float: left;
+    
+}
+.you h5{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.you p{
+    font-size: 12px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.link{
+    color:rgb(240, 10, 48);
+}
+.set_result{
+    width: 95%;
+    height: 200px;
+    float: right;
+    /* background-color: rgb(43, 226, 214); */
+    margin-top: 30px;
+}
+.no_result{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+   
+    /* background-color: aqua; */
+}

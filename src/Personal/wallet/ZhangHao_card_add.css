@@ -1,0 +1,115 @@
+.all{
+    background-color:#fafafa;
+    width: 100%;
+    height: 1000px;
+    
+}
+.tiny_head{
+    width: 100%;
+    height: 40px;
+  
+}
+.tiny{
+    background-color: white;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    border-bottom: 2px solid #ff4777;
+   
+}
+.gohome{
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.left{
+    width: 100px;
+    height: 40px;
+
+    float: right;
+    line-height: 40px;
+    text-align: center;
+}
+.right{
+    width: 100px;
+    height: 40px;
+
+    float: right;
+    line-height: 40px;
+    text-align: center;
+}
+.add{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+.add_center{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight:bolder;
+    border-top: 3px solid #999;
+    background-color: white;
+}
+.title span{
+    font-style: italic;
+    background-color: rgb(58, 58, 198);
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.leirong{
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow : 0 8px 23px rgba(0,0,0,.07);
+}
+.leirong p{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(240, 224, 135, 0.776);
+    margin-top: 50px;
+    margin-left: 300px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid rgb(241, 199, 107);
+    
+}
+.leirong_add{
+
+     padding-left: 300px;
+     margin-top: 30px;
+}
+.input{
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border:1px solid #d9d9d9;
+}
+.submit{
+     width: 100px;
+     height: 35px;
+     background-color: #ff4777;
+     color: white;
+     outline: none;
+     border: none;
+     margin-top: 30px;
+     margin-left: 100px;
+    
+}

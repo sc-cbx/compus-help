@@ -1,0 +1,96 @@
+.all{
+    width: 70%;
+    height: 1500px;
+    margin-left: 15%;
+    border:1px solid rgb(236, 236, 236);
+}
+.d1{
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.dav{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.dh{
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 2em;
+    margin-left: 70px;
+}
+.d2{
+    width: 90%;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.dih{
+    width: 129px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+.dip{
+    width: 85%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    margin-left: 129px;
+    color: gray;
+}
+.di5{
+    width: 90%;
+    height: 800px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.comment-list{
+    font-size: 2em;
+}
+.re1{
+    width: 90%;
+    height:40px;
+    letter-spacing: 2px;
+    color: gray;
+    margin-top: 25px;
+    font-size: 1.5em;
+}
+.auh{
+    font-size: 2.5em;
+    color: gray;
+    letter-spacing: 2px;
+}
+.d3{
+    width: 90%;
+    height: 290px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.replay{
+    width: 98.5%;
+    height: 40px;
+    color: gray;
+    margin-top: 20px;
+    font-size: 1.7em;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.text{
+    width: 98%;
+    height: 100px;;
+    font-size: 1.5em;
+    margin-left: 1%;
+}
+.send{
+    width: 90px;
+    height: 50px;
+    color: white;
+    background-color: rgb(247, 86, 116);
+    font-size: 1.5em;
+    margin-left: 92%;
+    margin-top: 16px;
+}

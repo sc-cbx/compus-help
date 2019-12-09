@@ -1,0 +1,78 @@
+.all{
+    width: 100%;
+    height: 1332px;
+}
+.ul1{
+    width: 100%;
+    height: 430px;
+    margin-top: 15px;
+    border-bottom:1px solid rgb(238, 238, 238);
+}
+.dl{
+    width: 40%;
+    height: 430px;
+    margin-left: 4%;
+   float: left;
+    border:1px solid rgb(233, 232, 232);
+}
+.dr{
+    width: 40%;
+    height: 430px;
+    
+    margin-left: 52%;
+    border:1px solid rgb(233, 232, 232);
+}
+.dl1{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.tou{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+.name{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 70px;
+    font-size: 1.5em;
+}
+.dl2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+}
+.a{
+    font-size: 1.6em;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    color: #f46; 
+}
+.dl3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+.p{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    color:gray;
+}
+.dl4{
+    width: 100%;
+    height: 220px;
+    line-height: 220px;
+    margin-top: 10px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}

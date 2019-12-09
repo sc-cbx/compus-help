@@ -1,0 +1,171 @@
+.header{
+    width: 100%;
+    height: 150px;
+    
+}
+.header_div{
+    width: 100%;
+    height: 35px;
+    background-color:#f5f5f5;
+    border-bottom:1px solid #e7e7e7;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.header_first{
+    width: 245px;
+    height: 35px;
+    background-color:#f5f5f5;
+    border-bottom:1px solid #e7e7e7;
+    margin-left:71.5%;
+    line-height: 35px;
+}
+.header_link{
+    color: gray;
+        
+}
+/* 首页 */
+.header_firstli{
+    list-style: none;
+    width: 70px;
+    height: 35px;
+    float: left;
+    list-style: none;
+}
+.header_firstdiv{
+    height: 35px;
+    width: 65px;
+    text-align: center;
+}
+.header_firstimg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+.header_separate{
+    width: 5px;
+    height: 35px;
+    list-style: none;
+    float: left;
+}
+/* 订单 */
+.header_order{
+    width: 80px;
+    height: 35px;
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+.header_span{
+    width: 60px;
+    margin-left: 5px;
+    color: #999;
+}
+/* 关于我们 */
+.header_us{
+    width: 75px;
+    height: 35px;
+    list-style: none;
+    float: left;
+
+}
+.header_dro{
+    width: 75px;
+    float: left;
+    color: #999;
+}
+.header_dc{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* // 搜索 */
+.header_search{
+    width: 100%;
+    height: 115px;
+    background-color: #fcfcfc;
+    border:1px solid #f5f5f5;
+    /* background-color: darkgoldenrod; */
+}
+.header_search ul{
+    padding: 0;
+    background-color: rgb(247, 247, 247); 
+    display: inline-block;
+    width: 100%;
+    height: 115px;
+}
+.search_center{
+    width: 100%;
+    height: 115px;
+    /* background-color: darkorange; */
+    margin: auto;
+    
+}
+/* .search ul li{
+    width: 100px;
+    height: 115px;
+    float: left;
+    background-color: rgb(153, 225, 30);
+} */
+ .header_lilogo{
+     float: left;
+     width: 325px;
+     height: 115px;
+     list-style: none;
+     line-height: 115px;
+     margin-left: 15%;
+}
+.header_logo{
+    width: 325px;
+    height: 115px;
+}
+.header_lisearch{
+ 
+    float: left;
+    width: 530px;
+    height: 115px;
+    list-style: none;
+    line-height: 115px;
+    margin-left: 3%;
+}
+
+.header_input{
+    width: 530px;
+    height: 50px;
+    border-radius: 90px;
+}
+
+.header_linews{
+    float: left;
+    width: 80px;
+    height: 115px;
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+    margin-left: 6.5%;
+} 
+ .header_liCollection{
+    float: left;
+    width: 80px;
+    height: 115px;
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+   
+}
+.header_lishop{
+    float: left;
+    width: 100px;
+    height: 115px;
+    /* background-color: rgb(0, 139, 0); */
+    list-style: none;
+    line-height: 115px;
+    text-align: right;
+}
+
+.header_img{
+    width: 40px;
+    height: 40px;
+}

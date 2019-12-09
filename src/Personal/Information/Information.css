@@ -1,0 +1,93 @@
+.information{
+    width: 100%;
+    height: 630px;
+    border-top:1px solid #d9d9d9;
+    border-right:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+    
+}
+.top{
+    width: 90%;
+    height: 240px;
+
+    margin: auto;
+    margin-top: 40px;
+    
+
+}
+.message_head{
+    width: 100%;
+    height: 30px;
+    background-color: #fafafa;
+    line-height: 30px;
+    padding-left: 20px;
+    color: rgb(214, 4, 99);
+    font-weight: bolder;
+}
+.message_center{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+
+}
+.down{
+    width: 90%;
+    height: 240px;
+
+    margin: auto;
+    margin-top: 20px;
+}
+.othermessage_head{
+    width: 100%;
+    height: 30px;
+    background-color: #fafafa;
+    line-height: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: rgb(214, 4, 99);
+    font-weight: bolder;
+
+}
+.othermessage_center{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+
+  
+    overflow: hidden;
+}
+.table{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.jieshao{
+
+    width: 70px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 34px;
+  
+    
+}
+.text{
+    margin-top: -25px;
+    
+    text-decoration: none;
+    margin-right:100px;
+    margin-left: 117px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.leirongTwo input{
+    width: 110px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 118px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 3px;
+    background-color: rgb(214, 4, 99);
+    color: white;
+}
