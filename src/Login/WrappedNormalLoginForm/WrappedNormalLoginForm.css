@@ -1,0 +1,40 @@
+.input{
+    padding: 0;
+    margin: 0;
+    width: 370px;
+    height: 40px;
+    outline: none;
+    border:none;
+    /* border:1px solid #d9d9d9; */
+}
+.button{
+    width: 370px;
+    height: 40px;
+    background-color: #ff4777;
+    color: white;
+    border:none;
+
+}
+.button:hover{
+    background-color: #ff4778d5;
+    color: white;
+}
+.checkbox{
+
+    color: #999;
+}
+.link{
+   
+    color: #d9d9d9;
+}
+
+
+.forget_password{
+    float:right;
+    color: #999;
+   
+}
+.come_register{
+    color: #999;
+   
+}

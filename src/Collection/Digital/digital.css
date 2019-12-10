@@ -1,0 +1,38 @@
+.container{
+  margin: auto;
+  width: 100%;
+  background-color: #c76c6c;
+}
+.container_content > ul{
+  width: 100%;
+}
+.container_content > ul > li{
+  width: 23%;
+  height: 270px;
+  margin: 5px 0 20px 20px;
+  text-align: center;
+  float: left;
+  /* background-color: #F8F8F8; */
+  border: 1px solid #d9d9d9;
+}
+.container_content > ul > li > a{
+  width: 100%;
+  height: 270px;
+}
+.container_content > ul > li > a > img{
+  width: 100%;
+  height: 150px;
+}
+.container_content > ul > li > a > .price > a{
+  width: 100%;
+  font-size: 16px;
+  color: #000000;
+}
+.container_content > ul > li > a > .price > a:hover{
+  text-decoration: underline;
+}
+.container_content > ul > li > a > .price > p{
+  /* margin-left: 12%; */
+  margin-top: 20px;
+  color: #ff7171;
+}

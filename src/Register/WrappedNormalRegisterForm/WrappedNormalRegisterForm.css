@@ -1,0 +1,19 @@
+.input{
+    width: 310px;
+    height: 40px;
+    
+}
+.submit{
+    width: 310px;
+    height: 40px;
+    border: none;
+    background-color: #ff4777;
+    color: white;
+}
+.submit:hover{
+    background-color: #ff4778d7;
+    color: white;
+}
+.link{
+    color: #d9d9d9;
+}

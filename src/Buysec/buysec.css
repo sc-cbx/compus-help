@@ -1,0 +1,86 @@
+.buysec_buy{
+    position: relative;
+    width: 70%;
+    height: 650px;
+    margin-left: 15%;
+    border:1px solid rgb(241, 241, 241);
+}
+.buysec_div{
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+.buysec_h1{
+    color: #f46;
+    letter-spacing: 3px;
+}
+.buysec_form{
+    width: 70%;
+    height: 460px;
+    margin-left: 15%;
+    border-radius: 20px;
+    border: 1px solid rgb(233, 233, 233);
+}
+.buysec_it1{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.buysec_h2{
+    font-size: 1.3em;
+    float: left;
+    color: gray;
+}
+.buysec_in1{
+    width: 21%;
+    height: 50px;
+    font-size: 1.2em;
+}
+.buysec_it2{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5%;
+}
+.buysec_in2{
+    width: 21%;
+    height: 50px;
+    font-size: 1.2em;
+}
+.buysec_it3{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5%;
+}
+.buysec_in3{
+    width: 40%;
+    height: 50px;
+    font-size: 1.2em;
+}
+.buysec_it4{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5%;
+}
+.buysec_in4{
+    width: 70%;
+    height: 90px;
+    font-size: 1.2em;
+}
+.buysec_bu{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 80%;
+    color: azure;
+    font-size: 1.2em;
+    border:1px solid #f46;
+    background-color: rgb(245, 75, 106);
+}
