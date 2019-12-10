@@ -1,0 +1,191 @@
+/*购物车：主要内容*/
+.container{
+    width: 100%;
+    float: left;
+    /*margin-top: 0;*/
+    /*float: left;*/
+}
+.container > .all_elections{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    float: left;
+}
+.container > .all_elections > .all_election{
+    position: relative;
+    margin-left: 5%;
+    float: left;
+}
+.container > .all_elections > .all_election > label{
+    margin-left: 22px;
+    font-size: 17px;
+    background-color: #fafafa;
+}
+.container > .all_elections > .all_election > input{
+    position: absolute;
+    top: 30%;
+    width: 18px;
+    height: 18px;
+}
+.container > .all_elections > .all_election > a{
+    margin-left: 20px;
+    font-size: 17px;
+    color: #3f3f3f;
+}
+.container > .all_elections > .all_election > a:hover{
+    color: #ff4466;
+    text-decoration: underline;
+}
+
+/*结算*/
+.container > .all_elections > .Settlement{
+    line-height: 40px;
+    margin-right: 4%;
+    float: right;
+}
+.container > .all_elections > .Settlement > h4{
+    font-size: 16px;
+    margin-right: 10px;
+    float: left;
+}
+.container > .all_elections > .Settlement > h4 > span{
+    font-size: 18px;
+    color: #ff4466;
+}
+.container > .all_elections > .Settlement > a > .settlement{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 3px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff7088;
+    border-bottom: 2px solid #f9f9f9;
+    border-right: 2px solid #f9f9f9;
+}
+.container > .all_elections > .Settlement > a > .settlement:hover{
+    background-color: #ff476a;
+}
+
+
+/*店铺*/
+.container > .content{
+    width: 100%;
+}
+.container > .content > ul{
+    width: 100%;
+}
+.container > .content > ul > ol{
+    width: 100%;
+    margin-bottom: 20px;
+    /*border: 1px solid #0f0f0f;*/
+    /* background-color: #fafafa; */
+    float: left;
+}
+
+
+/*店名介绍*/
+.container > .content > ul > ol > .store_name{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    float: left;
+}
+.store_name > .st_name{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-left: 5%;
+    line-height: 40px;
+}
+.store_name > .st_name > input{
+    position: absolute;
+    top: 30%;
+    width: 18px;
+    height: 18px;
+}
+.store_name > .st_name > label{
+    margin-left: 22px;
+    font-size: 17px;
+    background-color: #f8f8f8;
+}
+.store_name > .st_name > a{
+    font-size: 18px;
+    color: #0f0f0f;
+}
+
+
+/*店铺里的商品*/
+.container > .content > ul > ol > li{
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid #ffffff;
+    background-color: #fdfdfd;
+    float: left;
+}
+.goods{
+    width: 100%;
+    height: 160px;
+}
+.goods > .good{
+    width: 18px;
+    height: 18px;
+    margin: 5.5% 5% 0 8%;
+    float: left;
+}
+.goods > img{
+    width: 30%;
+    height: 150px;
+    margin-top: 0.4%;
+    float: left;
+}
+.goods > .price{
+    position: relative;
+    width: 20%;
+    /*margin-left: 31%;*/
+    height: 160px;
+    float: left;
+}
+.goods > .price > a{
+    font-size: 14px;
+    color: #0f0f0f;
+    /* text-align: center; */
+    margin-left: 10%;
+    margin-top: 3px;
+}
+.goods > .price> h4{
+    position: absolute;
+    top: 75px;
+    left: 11%;
+}
+.goods > .goods_num{
+    width: 35%;
+    height: 160px;
+    float: right;
+}
+
+.goods > .goods_num > .numbers{
+    margin-top: 19%;
+    float: left;
+}
+.goods > .goods_num >.all_price{
+    margin-top: 13%;
+    margin-right: 17%;
+    float: right;
+}
+.goods > .goods_num >.all_price > h3{
+    font-size: 16px;
+}
+.goods > .goods_num >.all_price > a{
+    font-size: 16px;
+    color: #3f3f3f;
+    margin-left: 35%;
+}
+.goods > .goods_num >.all_price > a:hover{
+    color: #ff4466;
+    text-decoration: underline;
+}

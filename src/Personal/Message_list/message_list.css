@@ -1,0 +1,36 @@
+/* .menu{
+    
+    border-top: 1px solid #e1e1e1;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: left;
+
+
+}*/
+.col{
+
+    background-color: #fafafa;
+}
+ul{
+    width: 100px;
+ 
+    
+    background-color: #fafafa;
+}
+.item{
+   width: 80px;
+   height: 20px;
+   /* padding-right: 17px; */
+    list-style: none;
+    font-size:12px;
+  
+    background-color: #fafafa;
+    
+} 
+.color{
+    color: black;
+}
+.color:hover{
+    color: rgb(255, 0, 136);
+}
+

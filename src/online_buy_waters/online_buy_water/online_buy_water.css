@@ -1,0 +1,119 @@
+
+/*初始化页面*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+/*快递帮拿*/
+
+.box{
+    height: 700px;
+    background-color: #fefefe;
+    margin: auto;
+    width: 70%;
+}
+.item_name{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #ff4777;
+}
+.item_name > img{
+    height: 80px;
+    float: left;
+}
+.item_name >h3{
+    font-size: 50px;
+    color: #ff4777;
+    letter-spacing: 10px;
+}
+/* .item_name > img{
+    height: 80px;
+    margin-right: 62%;
+    background-color: #ffb0ac;
+    float: right;
+}
+
+.online_img{
+    width: 55%;
+    height: 57.7%;
+    background-color: #ffffff;
+    float: left;
+}
+.online_img > img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+} */
+.container{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border:1px solid #d9d9d9;
+    border-radius: 3px;
+}
+.content{
+    width: 100%;
+    height: 70%;
+    background-color: #ffffff;
+}
+.onlinewater{
+    margin: 3% 8%;
+}
+.onlinewater_name{
+    margin: 3% 8%;
+}
+.onlinewater_num{
+    margin: 3% 8%;
+}
+.onlinewater_numbers{
+    margin: 3% 8%;
+}
+.onlinewater,.onlinewater_name,.onlinewater_num, label, input{
+    background-color: #ffffff;
+    letter-spacing: 5px;
+}
+.onlinewater > label,.onlinewater_name > label,.onlinewater_num > label,.onlinewater_numbers > label{
+    font-size: 16px;
+    color: #0f0f0f;
+}
+.onlinewater > input,.onlinewater_name > input,.onlinewater_num > input{
+    text-indent: 14px;
+    width: 85%;
+    margin-right: 1%;
+    height: 35px;
+    color: #0f0f0f;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    float: right;
+}
+.onlinewater > input:hover,.onlinewater_name > input:hover,.onlinewater_num > input:hover{
+    border: 1px solid #f46;
+    background-color: #fdfdfd;
+}
+.onlinewater_numbers > .onlinewater_number{
+    margin-left: 14.5%;
+}
+.container > .content > button{
+    font-size: 17px;
+    width: 10%;
+    height: 35px;
+    background-color: #ff4777;
+    border: 1px solid #ffb0ac;
+    color: #ffffff;
+    /* margin: 8px 39%; */
+    margin-right: 9%;
+    margin-bottom: 20px;
+    float: right;
+}
+.container > .content > button:hover{
+    background-color: #f46;
+    color: #fff8fd;
+}
