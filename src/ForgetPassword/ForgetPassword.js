@@ -17,7 +17,7 @@ export default class ForgetPassword extends React.Component{
                     <div className={ForgetPasswordCss.zhaohui_password}>
                         <div className={ForgetPasswordCss.title}>
                             <p>找回密码</p>
-
+                           
                             <ul>
                               <li>01/输入邮箱</li>
                               <li>02/验证信息</li>

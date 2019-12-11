@@ -1,0 +1,236 @@
+/*页面初始化*/
+*{
+    margin: 0;
+    padding: 0;
+    /*font-size: 16px;*/
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+ul ,ol ,li{
+    list-style-type: none;
+}
+
+
+/*食品速购*/
+.box{
+    height: 700px;
+    /* background-color: #fefefe; */
+    margin: auto;
+    width: 70%;
+}
+.quick_food_title{
+    width: 100%;
+    background-color: #fafafa;
+}
+
+/* 搜索 */
+.quick_food_title > .search{
+    width: 100%;
+    height: 70px;
+    background-color: #fafafa;
+    /* border-bottom: 2px solid #ffffff; */
+}
+.quick_food_title > .search > .search_left{
+    margin-left: 5%;
+    float: left;
+}
+.quick_food_title > .search > .search_left > img{
+    height: 70px;
+    float: left;
+}
+.quick_food_title > .search > .search_left > h2{
+    line-height: 70px;
+    font-size: 25px;
+    color: #0f0f0f;
+    float: left;
+}
+.quick_food_title > .search > .search_right{
+    margin-top: 18px;
+    margin-right: 15%;
+    float: right;
+}
+.quick_food_title > .search > .search_right > input{
+    width: 250px;
+    height: 40px;
+    text-indent: 20px;
+    letter-spacing: 8px;
+    border-left: 2px solid #dddddd ;
+    border-top: 2px solid #dddddd ;
+    float: left;
+}
+.quick_food_title > .search > .search_right > .search_btn{
+    width: 80px;
+    height: 38px;
+    padding-top: 2px;
+    background-color: #ffbdc9;
+    border: 2px solid #dddddd;
+    border-left: 0;
+    float: right;
+}
+.quick_food_title > .search > .search_right > .search_btn > img{
+    width: 40px;
+}
+
+
+/* 食品分类 */
+.classification{
+    width: 100%;
+    /* height: 100px; */
+    float: left; 
+}
+.classification > .cooked_foods, .snackses, .puffed_foods{
+    width: 33%;
+    float: left;
+}
+.classification > .cooked_foods > .cooked_food{
+    width: 30%;
+    height: 100px;
+    margin-left: 2%;
+    border-right: 2px solid #ffffff;
+    float: left;
+}
+.classification > .cooked_foods > .cooked_food > a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #727272;
+    margin-left: 30%;
+    float: left;
+}
+.classification > .cooked_foods > .cooked_food > a:hover,.classification > .snackses > .snacks > a:hover,.classification > .puffed_foods > .puffed_food > a:hover{
+    color: #f46;
+}
+.classification > .cooked_foods > .cooked_food > img{
+    width: 70px;
+    height: 70px;
+    margin-left: 18%;
+    float: left;
+}
+.classification > .cooked_foods > a{
+    font-size: 18px;
+    color: #bdbdbd;
+    margin-top: 40px;
+    margin-left: 15px;
+    float: left;
+}
+
+.classification > .cooked_foods > a:hover ,.classification > .snackses > a:hover,.classification > .puffed_foods > a:hover{
+    color: #ff859c;
+}
+
+
+
+.classification > .cooked_foods > span{
+    color: #616161;
+    margin: 40px 5px 0 15px;
+    float: left;
+}
+
+
+.classification > .snackses > .snacks{
+    width: 30%;
+    height: 100px;
+    margin-left: 2%;
+    border-right: 2px solid #ffffff;
+    float: left;
+}
+.classification > .snackses > .snacks > a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #727272;
+    margin-left: 30%;
+    float: left;
+}
+.classification > .snackses > .snacks > img{
+    width: 75px;
+    height: 70px;
+    margin-left: 18%;
+    float: left;
+}
+.classification > .snackses > a{
+    font-size: 18px;
+    color: #bdbdbd;
+    margin-top: 40px;
+    margin-left: 15px;
+    float: left;
+}
+.classification > .snackses > span{
+    color: #616161;
+    margin: 40px 5px 0 15px;
+    float: left;
+}
+
+
+.classification > .puffed_foods > .puffed_food{
+    width: 30%;
+    height: 100px;
+    margin-left: 2%;
+    border-right: 2px solid #ffffff;
+    float: left;
+}
+.classification > .puffed_foods > .puffed_food > a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #727272;
+    margin-left: 30%;
+    float: left;
+}
+.classification > .puffed_foods > .puffed_food > img{
+    width: 90px;
+    height: 70px;
+    margin-left: 18%;
+    float: left;
+}
+.classification > .puffed_foods > a{
+    font-size: 18px;
+    color: #bdbdbd;
+    margin-top: 40px;
+    margin-left: 15px;
+    float: left;
+}
+.classification > .puffed_foods > span{
+    color: #616161;
+    margin: 40px 5px 0 15px;
+    float: left;
+}
+
+
+ /* 主要内容 */
+.container{
+    width: 100%;
+}
+.container > .container_top{
+    width: 100%;
+    height: 80px;
+    background-color: #fefefe;
+}
+.container > .container_top > .food_title{
+    width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    float: left;
+}
+.container > .container_top > .food_title > h3{
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 2%;
+    /* border-bottom: 2px solid #727272; */
+}
+.container > .container_top > .container_title > a{
+    font-size: 20px;
+    color: #2c2c2c;
+    margin-left: 2%;
+}
+.container > .container_top > .container_title > a:hover{
+    color: #ff5d7b;
+}
+.container > .container_top > .container_title > span{
+    margin-left: 2%;
+}
+
+
+/* 食品：主要内容 */
+.content{
+    width: 100%;
+}

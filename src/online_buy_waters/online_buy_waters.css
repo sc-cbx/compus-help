@@ -1,0 +1,110 @@
+
+/*初始化页面*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+
+/*快递帮拿入口*/
+
+.box{
+    background-color: #fefefe;
+    margin: auto;
+    width: 70%;
+    height: 700px;
+}
+.box > .item_name{
+    width: 100%;
+    height: 90px;
+    /* background-color:#f46; */
+    border-bottom: 2px solid #ff4777;
+}
+.item_name > img{
+    height: 80px;
+    float: left;
+}
+.item_name >h3{
+    font-size: 50px;
+    color: #ff4777;
+    letter-spacing: 10px;
+}
+
+.frame{
+    width: 100%;
+    height: 100%;
+    /* background-color: #ffb4c8; */
+}
+.enter{
+    width: 25%;
+    height: 35%;
+    margin-left: 2.5%;
+    margin-top: 15%;
+    box-shadow: 10px 3px 10px 8px #cecece80, -10px 10px 10px 10px #ffffff80;
+    float: left;
+}
+.enter > div > .enter_imgs{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.enter > div > a{                                                                                                                                        
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #666;
+    margin-left: 30%;
+}
+.enter > div > a:hover{                                                                                                                                        
+    text-decoration: underline;
+    color: #ff4777;
+}
+
+
+
+
+/* .item_name > img{
+    height: 80px;
+    margin-right: 62%;
+    background-color: #f46;
+    float: right;
+} */
+
+/* .frame{
+    width: 17%;
+    height: 200px;
+    margin-left: 6.2%;
+    margin-top: auto;
+    float: left;
+    border: 3px solid #EAEAEA;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+.frame:hover{
+    border-bottom: 4px solid #f46;
+    transform: translateY(-10px);
+    /*transform: rotateZ(1rad);*/
+/* }
+.frame > a > div{
+    font-size: 30px;
+    color: #545454;
+    background-color: #ffffff;
+    margin-top: 37%;
+    /*margin-left: 37%;
+    /* text-align: center;
+} 
+.frame > a > div > a{
+    font-size: 30px;
+    color: #545454;
+    background-color: #ffffff;
+    margin-top: 37%;
+}
+*/
+ 

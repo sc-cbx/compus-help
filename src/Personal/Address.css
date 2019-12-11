@@ -1,0 +1,47 @@
+.all{
+    width: 100%;
+    height: 630px;
+    border: 1px solid #d9d9d9;
+
+}
+.center{
+    width: 95%;
+    height: 200px;
+
+    float: right;
+    margin-top: 30px;
+
+}
+.title{
+    width: 100%;
+    height: 40px;
+    background-color: #fafafa;
+    line-height: 40px;
+    padding-left: 10px;
+    border-left: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    font-weight: bolder;
+}
+.address{
+    width: 100%;
+    height: 160px;
+
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    
+}
+.address p{
+    line-height: 100px;
+    padding-left: 40px;
+}
+.address p span{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background-color: #ff5777;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+}
