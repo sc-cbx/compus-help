@@ -12,16 +12,16 @@ export default class Guarantee extends React.Component{
             // 新手帮助
             <div>
                 <div className={GuaranteeCss.tou}>
-                    <img src={require("./../../imgs/35.png")} className={GuaranteeCss.timg}></img>
-                    <h1 className={GuaranteeCss.h1}>校园帮——新手帮助</h1>
+                    <img src={require("./../../imgs/logo.png")} className={GuaranteeCss.timg}></img>
+                    <h1 className={GuaranteeCss.h1}>新手帮助</h1>
                     <Link to="/homepage" className={GuaranteeCss.back}>返回</Link>
                 </div>
                 <BrowserRouter basename="guarantee">
                 <div  className={GuaranteeCss.down}>
                      <div className={GuaranteeCss.left}>
-                        <h2 className={GuaranteeCss.h}><Link to="/problem" className={GuaranteeCss.link}>常见问题</Link></h2>
-                        <h2 className={GuaranteeCss.h2}><Link to="/customer" className={GuaranteeCss.link}>联系客服</Link></h2>
-                        <h2 className={GuaranteeCss.h2}><Link to="/feedback" className={GuaranteeCss.link}>意见反馈</Link></h2>
+                        <Link to="/problem" className={GuaranteeCss.link}><h2 className={GuaranteeCss.h}>常见问题</h2></Link>
+                        <Link to="/customer" className={GuaranteeCss.link}><h2 className={GuaranteeCss.h2}>联系客服</h2></Link>
+                       <Link to="/feedback" className={GuaranteeCss.link}> <h2 className={GuaranteeCss.h2}>意见反馈</h2></Link>
                     </div>
                     <div className={GuaranteeCss.right}>
                         <Route path="/problem" component={Problem}></Route>

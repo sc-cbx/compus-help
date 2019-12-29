@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Input,BackTop,Avatar } from 'antd'
+import { Button, Input,BackTop,Pagination } from 'antd'
 import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Header from './../Header/header';
 import Footer from './../Footer/footer';
@@ -22,15 +22,21 @@ export default class Helpbar extends React.Component {
                     <BrowserRouter basename="helpbar">
                         <div className={HelpbarCSS.menu}>
                             <div className={HelpbarCSS.menuall}>
-                                <Link to="/threeday" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>3天之内</div></Link>
-                                <Link to="/week" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>1周之内</div></Link>
-                                <Link to="/month" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>1月之内</div></Link>
+                                <div className={HelpbarCSS.menucontent}>
+                                    <Link to="/threeday" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>3天之内</div></Link>
+                                    <Link to="/week" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>1周之内</div></Link>
+                                    <Link to="/month" className={HelpbarCSS.link}><div className={HelpbarCSS.divs}>1月之内</div></Link>
+                                </div>
+                                <div>
+                                    <Pagination defaultCurrent={6} total={300} pageSizeOptions={15}  className={HelpbarCSS.page}/>
+                                    {/* pageSizeOptions表示每页可以显示多少条 */}
+                                </div>
                             </div>
                             <div className={HelpbarCSS.down}>
-                            <Route path="/threeday" component={Threeday}></Route>
-                            <Route path="/week" component={Week}></Route>
-                            <Route path="/month" component={Month}></Route>
-                        </div>
+                                <Route path="/threeday" component={Threeday}></Route>
+                                <Route path="/week" component={Week}></Route>
+                                <Route path="/month" component={Month}></Route>
+                            </div>
                         </div>
                     </BrowserRouter>
                 </div>

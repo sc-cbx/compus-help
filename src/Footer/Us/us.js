@@ -11,16 +11,16 @@ export default class Us extends React.Component{
             // 关于我们
             <div>
                 <div className={UsCss.tou}>
-                    <img src={require("./../../imgs/35.png")} className={UsCss.timg}></img>
-                    <h1 className={UsCss.h1}>校园帮——关于我们</h1>
+                    <img src={require("./../../imgs/logo.png")} className={UsCss.timg}></img>
+                    <h1 className={UsCss.h1}>关于我们</h1>
                     <Link to="/homepage" className={UsCss.back}>返回</Link>
                 </div>
                 <BrowserRouter basename="us">
                 <div  className={UsCss.down}>
                      <div className={UsCss.left}>
-                        <h2 className={UsCss.h}><Link to="/purpose" className={UsCss.link}>网页用途</Link></h2>
-                        <h2 className={UsCss.h2}><Link to="/mypromise" className={UsCss.link}>我们承诺</Link></h2>
-                        <h2 className={UsCss.h2}><Link to="/idea" className={UsCss.link}>我的理念</Link></h2>
+                        <Link to="/purpose" className={UsCss.link}><h2 className={UsCss.h}>网页用途</h2></Link>
+                        <Link to="/mypromise" className={UsCss.link}><h2 className={UsCss.h2}>我们承诺</h2></Link>
+                        <Link to="/idea" className={UsCss.link}><h2 className={UsCss.h2}>我的理念</h2></Link>
                     </div>
                     <div className={UsCss.right}>
                         <Route path="/purpose" component={Purpose}></Route>

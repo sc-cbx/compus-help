@@ -1,12 +1,16 @@
 import React from 'react';
-
-import courier_help_imgs from '../../imgs/19.png';
+import {Form, Button, Input,BackTop,Modal } from 'antd'
+import courier_help_imgs from '../imgs/19.png';
 import './courier_help.css'
-import Header from '../../Header/header';
-import Footer from '../../Footer/footer';
-
+import Header from '../Header/header';
+import Footer from '../Footer/footer'
 
 var cou_help = require('./courier_help.css')
+function success() {
+    Modal.success({
+      content: '提交成功，等待帮拿即可，货到付款！',
+    });
+  }
 export default class Courier_help extends React.Component {
     constructor(){
         super();
@@ -73,10 +77,13 @@ export default class Courier_help extends React.Component {
                             <label>取件地点：</label>
                             <input type="take_site" placeholder="取件地点" />
                         </div>
-                        <button type="submit">提交</button>
+                        <Button type="submit" onClick={success} >提交</Button>
                     </div>
                 </form>
-                <Footer/>
+                <BackTop />
+   
+    <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}>  </strong>
+                <Footer/>                
             </div>
         )
     }

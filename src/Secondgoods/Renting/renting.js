@@ -156,11 +156,6 @@ export default class Renting extends React.Component {
                     </div>
                                        
                 </div>
-                {/* 分页 */}
-                <div className={RentingCSS.pag}>
-                    <Pagination defaultCurrent={6} total={300} pageSizeOptions={16} />
-                    {/* pageSizeOptions表示每页可以显示多少条 */}
-                </div>
             </div>
         );
     }

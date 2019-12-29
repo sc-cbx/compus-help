@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Input ,BackTop} from 'antd'
+import { Button, Pagination ,BackTop} from 'antd'
 import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Header from './../Header/header';
 import Footer from './../Footer/footer';
@@ -24,27 +24,33 @@ export default class Secondgoods extends React.Component {
                     <BrowserRouter basename="secondgoods">
                         <div className={SecondgoodsCSS.menu}>
                             <div className={SecondgoodsCSS.menuall}>
-                                <Link to="/phone" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>手机数码</div></Link>
-                                <Link to="/renting" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>租房</div></Link>
-                                <Link to="/beautymakeup" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>美妆</div></Link>
-                                <Link to="/clothes" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>衣服</div></Link>
-                                <Link to="/digital" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>其他</div></Link>
-                                
+                                <div className={SecondgoodsCSS.menucontent}>
+                                    <Link to="/phone" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>手机数码</div></Link>
+                                    <Link to="/renting" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>租房</div></Link>
+                                    <Link to="/beautymakeup" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>美妆</div></Link>
+                                    <Link to="/clothes" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>衣服</div></Link>
+                                    <Link to="/digital" className={SecondgoodsCSS.link}><div className={SecondgoodsCSS.divs}>其他</div></Link>
+                                </div>
+                                <div>
+                                    <Pagination defaultCurrent={6} total={300} pageSizeOptions={15}  className={SecondgoodsCSS.page}/>
+                                    {/* pageSizeOptions表示每页可以显示多少条 */}
+                                </div>
                             </div>
                             <div className={SecondgoodsCSS.down}>
-                            <Route path="/phone" component={Phone}></Route>
-                            <Route path="/digital" component={Digital}></Route>
-                            <Route path="/renting" component={Renting}></Route>
-                            <Route path="/beautymakeup" component={Beautymakeup}></Route>
-                            <Route path="/clothes" component={Clothes}></Route>
-                        </div>
+                                <Route path="/phone" component={Phone}></Route>
+                                <Route path="/digital" component={Digital}></Route>
+                                <Route path="/renting" component={Renting}></Route>
+                                <Route path="/beautymakeup" component={Beautymakeup}></Route>
+                                <Route path="/clothes" component={Clothes}></Route>
+                            </div>
+                            
                         </div>
                         
                     </BrowserRouter>
-                    
+                   
                     
                 </div>
-
+                  
                    <div>
                 <BackTop />
             

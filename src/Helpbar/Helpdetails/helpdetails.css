@@ -47,23 +47,25 @@
 .di5{
     width: 90%;
     height: 800px;
+    background-color:#fafafa;
     border: 1px solid rgb(235, 235, 235);
 }
-.comment-list{
-    font-size: 2em;
-}
 .re1{
-    width: 90%;
+    width: 1000px;
     height:40px;
     letter-spacing: 2px;
     color: gray;
     margin-top: 25px;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 .auh{
     font-size: 2.5em;
     color: gray;
     letter-spacing: 2px;
+}
+.li{
+    width: 1000px;
+    height: 200px;
 }
 .d3{
     width: 90%;
@@ -91,6 +93,9 @@
     color: white;
     background-color: rgb(247, 86, 116);
     font-size: 1.5em;
-    margin-left: 92%;
+    margin-left: 90.5%;
     margin-top: 16px;
+}
+.avatarimg{
+    margin-left: 10px;
 }

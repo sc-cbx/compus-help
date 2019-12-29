@@ -99,16 +99,9 @@
 .search_center{
     width: 100%;
     height: 115px;
-    /* background-color: darkorange; */
     margin: auto;
     
 }
-/* .search ul li{
-    width: 100px;
-    height: 115px;
-    float: left;
-    background-color: rgb(153, 225, 30);
-} */
  .header_lilogo{
      float: left;
      width: 325px;
@@ -138,6 +131,7 @@
 }
 
 .header_linews{
+    position: relative;
     float: left;
     width: 80px;
     height: 115px;
@@ -147,6 +141,7 @@
     margin-left: 6.5%;
 } 
  .header_liCollection{
+    position: relative;
     float: left;
     width: 80px;
     height: 115px;
@@ -156,6 +151,7 @@
    
 }
 .header_lishop{
+    position: relative;
     float: left;
     width: 100px;
     height: 115px;
@@ -166,6 +162,7 @@
 }
 
 .header_img{
+    position: relative;
     width: 40px;
     height: 40px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Input,BackTop,Pagination } from 'antd'
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import Header from '../Header/header';
 
@@ -37,21 +38,6 @@ export default class Quick_food_purchase extends React.Component {
 
                         {/* 食品速购：头部 */}
                         <div className={quick_food.quick_food_title}>
-
-                            {/* 搜索 */}
-                            <div className={quick_food.search}>
-                                <div className={quick_food.search_left}>
-                                    <img src={quick_food_img} alt="食品速购"/>
-                                    <h2>食品速购</h2>
-                                </div>
-                                <div className={quick_food.search_right}>
-                                    <input type="search" placeholder="搜索"/>
-                                    <button className={quick_food.search_btn}>
-                                        <img src={search_img} alt="搜索"/>
-                                    </button>
-                                </div>
-                            </div>
-                            
 
                             {/* 食品分类 */}
                             <div className={quick_food.classification}>
@@ -97,18 +83,25 @@ export default class Quick_food_purchase extends React.Component {
                         {/* 主要内容 */}
                         <div className={quick_food.container}>
                             <div className={quick_food.container_top}>
-                                <div className={quick_food.food_title}>
+                                <div className={quick_food.all}>
+                                    <div className={quick_food.food_title}>
                                     <h3>食品</h3>
+                                    </div>
+                                    <div className={quick_food.container_title}>
+                                        <Link to="/foods">综合</Link>
+                                        <span>|</span>
+                                        <Link to="/foods">销量</Link>
+                                        <span>|</span>
+                                        <Link to="/foods">新品</Link>
+                                    </div>
                                 </div>
-                                <div className={quick_food.container_title}>
-                                    <Link to="/foods">综合</Link>
-                                    <span>|</span>
-                                    <Link to="/foods">销量</Link>
-                                    <span>|</span>
-                                    <Link to="/foods">新品</Link>
+                                
+                                <div>
+                                    <Pagination defaultCurrent={6} total={300} pageSizeOptions={15}  className={quick_food.page}/>
+                                    {/* pageSizeOptions表示每页可以显示多少条 */}
                                 </div>
                             </div>
-
+                            
                             {/* 食品：主要内容 */}
                             <div className={quick_food.content}>
                                 <Route path="/foods" component={Foods}></Route>
@@ -120,7 +113,12 @@ export default class Quick_food_purchase extends React.Component {
                         </div>
                     </div>
                 </BrowserRouter>
-               
+                <div>
+                <BackTop />
+            
+                <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}>  </strong>
+             
+            </div> 
                 <Footer/>
             </div>
             

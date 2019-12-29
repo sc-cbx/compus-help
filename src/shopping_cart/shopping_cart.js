@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import Header from "../Header/header";
-
+import { Button, Input,BackTop,Pagination } from 'antd'
 import shop_cart_imgs from '../imgs/1 (10).png'
 
 import Cart_goods from './Cart_goods/cart_goods'
@@ -40,10 +40,16 @@ export default class Shopping_cart extends React.Component {
                             <div className={shop_cart.container}>
                                 <Route path="/cart_goods" component={Cart_goods}></Route>
                             </div>
-
+                        
                         </div>
                     </div>
                 </BrowserRouter>
+                <div>
+                        <BackTop />
+                    
+                        <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}>  </strong>
+                    
+                    </div>  
                 <Footer/>
             </div>
 

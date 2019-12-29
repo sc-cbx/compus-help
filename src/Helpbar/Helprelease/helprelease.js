@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Upload, Icon, Modal, Input, Button } from 'antd';
+import { Form, Upload, Icon, Modal,BackTop, Input, Button } from 'antd';
 import Header from './../../Header/header';
 import Footer from './../../Footer/footer';
 var HelpreleaseCss=require('./helprelease.css');
@@ -84,6 +84,9 @@ export default class Helprelease extends React.Component{
                         </Form.Item>
                     </Form>
                 </div>
+                <BackTop />
+
+<strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}> </strong>
                <Footer/>
             </div>
         )

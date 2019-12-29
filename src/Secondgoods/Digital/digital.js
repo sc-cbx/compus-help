@@ -151,12 +151,7 @@ export default class Digital extends React.Component {
                             </div>
                         </a>                   
                     </div>                        
-                </div>    
-                {/* 分页 */}
-                <div className={DigitalCSS.pag}>
-                    <Pagination defaultCurrent={6} total={300} pageSizeOptions={16} />
-                    {/* pageSizeOptions表示每页可以显示多少条 */}
-                </div>             
+                </div>              
             </div>
         );
     }

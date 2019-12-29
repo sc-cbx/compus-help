@@ -16,29 +16,33 @@ export default class Repair extends React.Component {
             <div>
                 <Header/>
                 <div className={RepairCSS.all}>
+                    <div className={RepairCSS.dtitle}>
+                        <img className={RepairCSS.ititle} src={require("../imgs/32.png")}></img>
+                        <h1 className={RepairCSS.title}>维修搬运</h1>
+                    </div>
                     <Form className={RepairCSS.form}>
                         <Form.Item className={RepairCSS.item}>
                             <h1  className={RepairCSS.h}>损坏描述：</h1>
-                            <Input className={RepairCSS.text}/>
+                            <Input className={RepairCSS.text} placeholder="请描述维修情况，方便维修人员带工具"/>
                         </Form.Item>
                         <Form.Item className={RepairCSS.item}>
                             <h1  className={RepairCSS.h}>修理要求：</h1>
-                            <Input className={RepairCSS.text}/>
+                            <Input className={RepairCSS.text} placeholder="请写出修理要求"/>
                         </Form.Item>
                         <Form.Item className={RepairCSS.item}>
                             <h1  className={RepairCSS.h}>宿舍：</h1>
-                            <Input className={RepairCSS.text}/>
+                            <Input className={RepairCSS.text} placeholder="请写出完整的寝室号，比如2-172"/>
                         </Form.Item>
                         <Form.Item className={RepairCSS.item}>
                             <h1  className={RepairCSS.h}>联系人：</h1>
-                            <Input className={RepairCSS.text}/>
+                            <Input className={RepairCSS.text} placeholder="联系人"/>
                         </Form.Item>
                         <Form.Item className={RepairCSS.item}>
                             <h1  className={RepairCSS.h}>联系方式：</h1>
-                            <Input className={RepairCSS.text}/>
+                            <Input className={RepairCSS.text} placeholder="联系方式"/>
                         </Form.Item>
                         <Form.Item className={RepairCSS.itbu}>
-                            <Button onClick={success} className={RepairCSS.bu}>确定</Button>
+                            <Button type="submit" onClick={success} className={RepairCSS.bu}><h3 className={RepairCSS.buh}>确定</h3></Button>
                         </Form.Item>
                     </Form>
                 </div>

@@ -1,8 +1,14 @@
 import React from 'react';
-import {Link,BrowserRouter,Route} from 'react-router-dom';
-import {Comment, Icon, Tooltip, Avatar,Input} from 'antd';
+import {Comment, Icon, Tooltip, Avatar,Input,Button,Modal,Anchor} from 'antd';
 import moment from 'moment';
 var CommentonCss=require('./commenton.css');
+const { TextArea } = Input;
+const { Link } = Anchor;
+function success() {
+  Modal.success({
+    content: '发表成功！',
+  });
+}
 export default class Commenton extends React.Component {
         state = {
           likes: 0,
@@ -49,23 +55,34 @@ export default class Commenton extends React.Component {
             </Tooltip>
             <span style={{ paddingLeft: 8, cursor: 'auto' }}>{dislikes}</span>
           </span>,
-          <span key="comment-basic-reply-to" style={{fontSize:15}}>回复</span>,
+          <Anchor affix={false}><Link href="#replay" key="comment-basic-reply-to" style={{fontSize:15}} title="回复" className={CommentonCss.rep}  /></Anchor>
         ];
     
         return (
-            // 跳蚤市场的商品评论
-            <Comment actions={actions} className={CommentonCss.com} author={<a style={{fontSize:20}}>sc-cbx</a>} avatar={<Avatar  src={require("../../imgs/tou1.jpg")} alt="sc-cbx"/>}
-            content={
-              <p className={CommentonCss.p}>
-                量大，好吃第一次这家酸辣粉，我觉得店铺肯定非常靠谱嘛，肯定要比外面的干净卫生，吃第一包找到了上学时候的感觉，真香，嘎嘎滴很不满意，调料包到出来了，还能吃吗？非常失败的一独立小包装，干净卫生，很新鲜，酸酸辣辣的
-              </p>
-            }
-            datetime={
-              <Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
-                <span>{moment().fromNow()}</span>
-              </Tooltip>
-            }
-          />
+            // 食品速购的商品评论
+            <div>
+              <div className={CommentonCss.comd}>
+                  <Comment actions={actions} className={CommentonCss.com} author={<a style={{fontSize:20}}>sc-cbx</a>} avatar={<Avatar  src={require("../../imgs/tou1.jpg")} alt="sc-cbx"/>}
+                  content={
+                    <p className={CommentonCss.p}>
+                      量大，好吃第一次这家酸辣粉，我觉得店铺肯定非常靠谱嘛，肯定要比外面的干净卫生，吃第一包找到了上学时候的感觉，真香，嘎嘎滴很不满意，调料包到出来了，还能吃吗？非常失败的一独立小包装，干净卫生，很新鲜，酸酸辣辣的
+                    </p>
+                  }
+                  datetime={
+                    <Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
+                      <span>{moment().fromNow()}</span>
+                    </Tooltip>
+                  }
+                />
+              </div>
+              <div className={CommentonCss.d3}>
+                            <h1 id="replay" className={CommentonCss.replay}>回复</h1>
+                            <TextArea className={CommentonCss.text} rows={4} autoSize />
+                            <Button onClick={success} className={CommentonCss.send}>发表</Button>
+                        </div>    
+                        
+            </div>
+            
         );
     }
 }

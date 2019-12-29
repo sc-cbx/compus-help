@@ -1,92 +1,93 @@
-.homepage{
+.homepage_homepage{
     width: 70%;
     text-align: center;
     height: 1168px;
     background-color: #f7f7f7;
     margin-left: 15%;
 }
-.classification{
+.homepage_classification{
     position: relative;
     width: 100%;
     height: 405px;
     border:1px solid #f1f1f1;
     background-color: #f7f7f7;;
 }
-.link{
+.homepage_link{
     color: gray;
 }
 /* 分类 */
-.allfication{
+.homepage_allfication{
     width: 25%;
-    height: 350px;
+    height: 353px;
     position: relative;
     float: left;
 }
-.fication{
+.homepage_fication{
     width: 100%;
-    height: 350px;
+    height: 353px;
     position: relative;
-    border:1px solid #f5f5f5;
+    border:1px solid #f1f1f1;
 }
-.menuheader{
+.homepage_menuheader{
     color: gray;
+    font-size: 1.1em;
+    
 }
-.submenutop{
+.homepage_submenutop{
     margin-top: 15px;
-    height: 55px;
-    border-radius: 1px solid gray;
-}
-.submenu{
     height: 50px;
     border-radius: 1px solid gray;
 }
-.fispan{
+.homepage_submenu{
+    height: 50px;
+    border-radius: 1px solid gray;
+}
+.homepage_fispan{
     color: gray;
     
- 
-    font-size: 1.3em;
+    margin-left: 30px;
+    font-size: 1.2em;
     letter-spacing: 5px;/*字间距*/
 }
-.fiicon{
-    width: 30px;
-    height: 30px;
+.homepage_fiicon{
+    width: 35px;
+    height: 35px;
 }
 /* 轮播图 */
-.carousel{
+.homepage_carousel{
     position: absolute;
     width: 58%;
-    height: 400px;
+    height: 410px;
     margin-left: 25.5%;
-    background-color: #f7f7f7;
 }
-.rotary{
+.homepage_rotary{
     width: 100%;
-    height:400px;
+    height:412px;
     
   }
   /* 登录注册（个人中心） */
-  .lr{
+  .homepage_lr{
     position: absolute;
     width: 16%;
     height: 400px;
     margin-left: 84%;
     background-color: #ffffff;
   }
-  .tou{
+  .homepage_tou{
    
       height:200px;
   }
-  .itou{
+  .homepage_itou{
       margin-top: 20%;
   }
-  .login{
+  .homepage_login{
       height: 200px;
   }
-  .lb{
+  .homepage_lb{
       
       margin-left: 2px;
   }
-  .wec{
+  .homepage_wec{
       width: 100%;
       margin-top: 30%;
       text-align: center;
@@ -94,23 +95,23 @@
       color: #f46;
   }
   /* 食品精选 */
-  .xuan{
+  .homepage_xuan{
       width: 100%;
       height: 765px;
   }
-  .fh{
+  .homepage_fh{
     position: absolute; 
     width: 70%;
     height: 400px;
 }
-.more{
+.homepage_more{
     position: absolute;
     width: 100%;
     height: 50px;
   
     background-color:#f5f5f5;
 }
-.f{
+.homepage_f{
     width:150px; 
     height: 50px;
     line-height: 50px;
@@ -118,7 +119,7 @@
     color: gray;
     float: left;
 }
-.lf{
+.homepage_lf{
     color: gray;
     width: 100px;
     height: 50px;
@@ -126,7 +127,7 @@
     font-size: 1.2em;
     margin-left: 75%;
 }
-.picd{
+.homepage_picd{
     
     width: 100%;
     height: 330px;
@@ -135,14 +136,14 @@
     background-color: #ffffff;
     border: 1px solid #f1f1f1;
 }
-.pics{
+.homepage_pics{
     width: 100%;
     height: 325px;
     float: left;
     text-align: center;
 
 }
-.pica{
+.homepage_pica{
     width:22%;
     height: 325px;
     float: left;
@@ -150,38 +151,38 @@
     margin-left: 2.4%;
     text-align: center;
 }
-.pic{
+.homepage_pic{
     text-align: center;
     width:100%;
     height: 150px;
 }
-.pich{
+.homepage_pich{
     color:#f46;
     margin-top: 7px;
     font-size: 1.3em;
 }
-.picp{
+.homepage_picp{
     font-size: 1.2em;
     color: gray;
 }
-.picp2{
+.homepage_picp2{
     color: #f46;
 }
 /* 跳蚤市场 */
-.sec{
+.homepage_sec{
   position: absolute; 
   width: 70%;
   height: 400px;
   margin-top: 382px;
 }
-.smore{
+.homepage_smore{
   position: absolute;
   width: 100%;
   height: 50px;
 
   background-color:#f5f5f5;
 }
-.s{
+.homepage_s{
   width:150px; 
   height: 50px;
   line-height: 50px;
@@ -189,7 +190,7 @@
   color: gray;
   float: left;
 }
-.sm{
+.homepage_sm{
   color: gray;
   width: 100px;
   height: 50px;
@@ -197,7 +198,7 @@
   font-size: 1.2em;
   margin-left: 75%;
 }
-.spicd{
+.homepage_spicd{
   
   width: 100%;
   height: 330px;
@@ -206,14 +207,14 @@
   background-color: #ffffff;
   border: 1px solid #f1f1f1;
 }
-.spics{
+.homepage_spics{
   width: 100%;
   height: 325px;
   float: left;
   text-align: center;
 
 }
-.spica{
+.homepage_spica{
   width:22%;
   height: 325px;
   float: left;
@@ -221,18 +222,18 @@
   margin-left: 2.4%;
   text-align: center;
 }
-.spic{
+.homepage_spic{
   text-align: center;
   width:100%;
   height: 150px;
 }
-.spich{
+.homepage_spich{
   color:#f46;
   margin-top: 7px;
   height: 70px;
   font-size: 1.3em;
 }
-.p1{
+.homepage_p1{
     width: 25px;
     height: 25px;
   font-size: 1.3em;
@@ -240,7 +241,7 @@
   float: left;
   margin-left: 100px;
 }
-.spicp2{
+.homepage_spicp2{
     width: 70px;
     height: 25px;
     margin-left: 125px;

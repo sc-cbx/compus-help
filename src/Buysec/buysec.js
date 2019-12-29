@@ -4,6 +4,7 @@ import { Form,Modal, Input, Button ,BackTop} from 'antd';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
 var BuysecCss=require('./buysec.css');
+const { TextArea } = Input;
 export default class Buysec extends React.Component{
     render(){
         return(
@@ -30,7 +31,7 @@ export default class Buysec extends React.Component{
                             </Form.Item>
                             <Form.Item className={BuysecCss.buysec_it4}>
                                 <h1 className={BuysecCss.buysec_h2}>备注：</h1>
-                                <Input className={BuysecCss.buysec_in4} placeholder="选填" />
+                                <TextArea className={BuysecCss.buysec_in4} rows={4} placeholder="选填" autoSize/>
                             </Form.Item>
                             <Button className={BuysecCss.buysec_bu}><Link >确定并立即购买</Link></Button>
                         </Form>

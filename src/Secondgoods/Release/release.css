@@ -9,21 +9,40 @@
   }
   .di{
       width: 70%;
-      height: 800px;
+      height: 900px;
       margin-left: 15%;
       border: 1px solid rgb(240, 240, 240);
   }
   .form{
       width: 80%;
-      height: 800px;
+      height: 900px;
       margin-left: 10%;
   }
   .item{
+      margin-top: 20px;
       width: 100%;
       height: 50px;
   }
+  .item1{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+.radioall{
+    width: 100%;
+    height: 50px;
+    line-height: 24px;
+}
+.radio{
+    width: 16%;
+    height: 50px;
+}
+.rspan{
+    font-size: 1.5em;
+    color: gray;
+}
   .h1{
-      width: 117px;
+      width: 150px;
       height: 50px;
       float: left;
       font-size: 1.5em;
@@ -32,7 +51,7 @@
 
   }
   .in1{
-      width: 88.5%;
+      width: 82%;
       height: 50px;
 
   }
@@ -40,8 +59,10 @@
       width: 100px;
       height: 50px;
       margin-left: 90%;
-      margin-top: 30px;
-      font-size: 1.4em;
+      margin-top: 55px;
       color: aliceblue;
       background-color: rgb(255, 89, 120);
+  }
+  .buspan{
+      font-size: 1.4em;
   }

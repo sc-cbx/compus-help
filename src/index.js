@@ -6,10 +6,9 @@ import HomePage from './HomePage/homepage';
 import LoginPage from './Login/login';
 import Personal from './Personal/personal';
 import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
-import Myorder from './Myorder/myorder';
+
 import Collection from './Collection/collection';
 import Shopping_cart from './Shopping_cart/shopping_cart';
-import News from './News/news';
 import Register from './Register/register';
 import Guarantee from './Footer/Guarantee/guarantee';
 import Us from './Footer/Us/us';
@@ -18,8 +17,7 @@ import Quick_food_purchase from './Quick_food_purchase/quick_food_purchase';
 import Ordersec from './Ordersec/ordersec';
 import Buysec from './Buysec/buysec';
 import Release from './Secondgoods/Release/release';
-import Courier_helps from './Courier_help/courier_helps';
-import Online_buy_waters from './Online_buy_water/online_buy_water';
+import Online_buy_water from './Online_buy_water/online_buy_water';
 import Helpbar from './Helpbar/helpbar';
 import Repair from './Repair/repair';
 import Helpdetails from './Helpbar/Helpdetails/helpdetails';
@@ -31,6 +29,9 @@ import User_safety from './Personal/Safety/User_safety';
 import UserLocked from './Personal/UserLocked/UserLocked';
 import MyWallet from './Personal/wallet/MyWallet';
 import ZhangHao_card_add from './Personal/wallet/ZhangHao_card_add';
+import Courier_help from './Courier_help/courier_help';
+import Goods from './Goods/goods';
+
 // import Picture1 from './HomePage/First/Picture1/picture1';
 
 
@@ -44,10 +45,8 @@ class IndexPage extends React.Component{
                    <Route path="/homepage" component={HomePage}></Route>
                    <Route path="/secondgoods" component={Secondgoods}></Route>
                    <Route path="/login" component={LoginPage}></Route>
-                   <Route path="/myorder" component={Myorder}></Route>
                    <Route path="/collection" component={Collection}></Route>
                    <Route path="/shopping_cart" component={Shopping_cart}></Route>
-                   <Route path="/news" component={News}></Route>
                    <Route path="/register" component={Register}></Route>
                    <Route path="/guarantee" component={Guarantee}></Route>
                    <Route path="/personal" component={Personal}></Route>
@@ -56,8 +55,7 @@ class IndexPage extends React.Component{
                    <Route path="/ordersec" component={Ordersec}></Route>
                    <Route path="/buysec" component={Buysec}></Route>
                     <Route path="/release" component={Release}></Route>
-                    <Route path="/courier_helps" component={Courier_helps}></Route>
-                    <Route path="/online_buy_waters" component={Online_buy_waters}></Route>
+                    <Route path="/online_buy_water" component={Online_buy_water}></Route>
                     <Route path="/helpbar" component={Helpbar}></Route>
                     <Route path="/repair" component={Repair}></Route>
                     <Route path="/helpdetails" component={Helpdetails}></Route>
@@ -68,7 +66,9 @@ class IndexPage extends React.Component{
                    <Route path="/user_notlocked" component={User_notlocked}></Route>
                    <Route path="/user_safety" component={User_safety}></Route>
                    <Route path="/mywallet" component={MyWallet}></Route>
+                   <Route path="/courier_help" component={Courier_help}></Route>
                    <Route path="/zhanghao_card_add" component={ZhangHao_card_add}></Route>
+                   <Route path="/goods" component={Goods}></Route>
                    {/*<Route component={Main}/> */}{/* 默认路由 */}
                    
                    <Redirect to="/homepage"></Redirect>

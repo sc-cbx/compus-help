@@ -45,9 +45,10 @@
     margin-left: 37%;
     color: #f46;
 }
-.pag{
-  width: 100%;
-  height: 50px;
+.beautymakeup_pag{
+  width:1400px;
+  height: 20px;
   margin-top: 50px;
+  background-color: aqua;
   text-align: center;
 }

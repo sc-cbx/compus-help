@@ -1,56 +1,56 @@
-.footer{
+.footer_footer{
     width: 100%;
     height: 400px;
     background-color: rgb(252, 89, 119);
 }
-.loimg{
+.footer_loimg{
     width: 150px;
     height: 150px;
     margin-left: 45%;
 }
-.d1{
+.footer_d1{
     width: 120px;
     height: 180px;
     margin-left: 22%;
     text-align: center;
     float: left;
 }
-.gh{
+.footer_gh{
     width: 120px;
     height: 30px;
     color: azure;
     letter-spacing: 2px;
     font-size: 1.6em;
 }
-.ga{
+.footer_ga{
     width: 120px;
     height: 30px;
     font-size: 1.3em;
     color: azure;
 }
-.img{
+.footer_img{
     width: 100px;
     height: 100px;
 }
-.a{
+.footer_a{
     font-size: 1.5em;
     color:white;
 }
-.d2{
+.footer_d2{
     width: 120px;
     height: 180px;
     margin-left: 10%;
     text-align: center;
     float: left;
 }
-.d3{
+.footer_d3{
     width: 120px;
     height: 180px;
     margin-left: 10%;
     text-align: center;
     float: left;
 }
-.d4{
+.footer_d4{
     width: 120px;
     height: 180px;
     margin-left: 10%;

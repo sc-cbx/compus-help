@@ -14,9 +14,9 @@ function success() {
   }
 const data = [
     {
-      actions: [<Anchor affix={false}><Link href="#replay" title="回复" /></Anchor>],
+      actions: [<Anchor affix={false}><Link href="#replay" title="回复" className={HelpdetailsCSS.rep} /></Anchor>],
       author: (<h1 className={HelpdetailsCSS.auh}>sc</h1>),
-      avatar: (<img src={require("../../imgs/tou1.jpg")}></img>),
+      avatar: (<img src={require("../../imgs/tou1.jpg")} className={HelpdetailsCSS.avatarimg}></img>),
       content: (
         <p className={HelpdetailsCSS.re1}>
          同求，我也想要
@@ -37,9 +37,9 @@ const data = [
       ),
     },
     {
-      actions: [<Anchor affix={false}><Link href="#replay" title="回复" /></Anchor>],
+      actions: [<Anchor affix={false}><Link href="#replay" title="回复" className={HelpdetailsCSS.rep}  /></Anchor>],
       author: (<h1 className={HelpdetailsCSS.auh}>cbx</h1>),
-      avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+      avatar:  (<img src={require("../../imgs/tou1.jpg")} className={HelpdetailsCSS.avatarimg}></img>),
       content: (
         <p className={HelpdetailsCSS.re1}>
           我有完整版的，要吗？
@@ -94,14 +94,14 @@ export default class Helpdetails extends React.Component {
                         </div>
                         <div className={HelpdetailsCSS.di4}>
                             <h1 className={HelpdetailsCSS.dih}>详情联系：</h1>
-                            <p className={HelpdetailsCSS.dip}>QQ:223****051</p>
+                            <p className={HelpdetailsCSS.dip}>223****051@qq.com</p>
                         </div>
                         <div className={HelpdetailsCSS.di5}>
-                             <List className="comment-list" header={`${data.length} replies`} itemLayout="horizontal" dataSource={data}
+                             <List header={`${data.length} replies`} itemLayout="horizontal" dataSource={data}
                                 renderItem={item => (
-                                <li>
+                                <li className={HelpdetailsCSS.li}>
                                     <Comment  actions={item.actions} author={item.author} avatar={item.avatar} content={item.content} datetime={item.datetime}/> 
-                                </li>)}/>
+                                </li>) } />
                         </div>
                         <div className={HelpdetailsCSS.d3}>
                             <h1 id="replay" className={HelpdetailsCSS.replay}>回复</h1>

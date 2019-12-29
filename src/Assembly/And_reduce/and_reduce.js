@@ -12,7 +12,7 @@ export default class And_reduce extends React.Component{
             i: 0
         }
     }
-
+// 食品速购的数量增减实现
     // 增加
     increase(){
         this.setState({

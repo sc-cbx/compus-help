@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Link, Route} from "react-router-dom";
-
+import { Button, Input,BackTop,Pagination } from 'antd'
 
 import guazi from '../../imgs/TB2DmkPjwnH8KJjSspcXXb3QFXa_2194810505.jpg'
 import latiao from '../../imgs/O1CN01wXiDJZ1GtwILME6a3_2200070681.jpg'
@@ -203,7 +203,10 @@ export default class Cart_goods extends React.Component{
                         </ol>
                     </ul>
                 </div>
-
+                <div>
+                                <Pagination defaultCurrent={6} total={300} pageSizeOptions={15}  className={cart_goods.page}/>
+                                    {/* pageSizeOptions表示每页可以显示多少条 */}
+                            </div>
 
                 <div className={cart_goods.all_elections}>
                     <div className={cart_goods.all_election}>

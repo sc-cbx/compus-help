@@ -1,11 +1,12 @@
 import React from 'react'
-import { Button,Modal, Input,Carousel,BackTop } from 'antd'
+import { Button,Modal, Input,Carousel,BackTop,Form} from 'antd'
 import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Header from '../Header/header';
 import Details from './Details/details';
 import Commenton from './Commenton/commenton';
 import Buysec from '../Buysec/buysec';
 import Footer from '../Footer/footer';
+import And_reduce from '../Assembly/And_reduce/and_reduce';
 var goods = require('./goods.css');
 function success() {
     Modal.success({
@@ -14,19 +15,33 @@ function success() {
   }
   
 export default class Goods extends React.Component {
+    constructor(){
+        super();
+        this.state={
+
+        }
+    }
+    onChange = e =>{
+        // this.setState({
+        //     value: e.target.value,
+        // });
+
+    };
     render() {
         return (
-            // 跳蚤市场，商品详情总
+            // 食品速购，商品详情总
             <div className={goods.all}>
                 <Header/>
+                
                 <div className={goods.ad}>
+                <Form action="">
                     <div className={goods.order}>
                         <div className={goods.picture}>
                             <Carousel autoplay className={goods.car}>
-                                <div><img src={require("../imgs/O1CN01e2sClP1rp1p4H6oPVitem_pic.jpg")} className={goods.img}></img></div>
-                                <div><img src={require("../imgs/12047089632441691876&fm26&gp.jpg")}  className={goods.img}></img></div>
-                                <div><img src={require("../imgs/u3851711179942763536&fm26&gp0.jpg")}  className={goods.img}></img></div>
-                                <div><img src={require("../imgs/u41477241454285966385&fm26&gp0.jpg")}  className={goods.img}></img></div>
+                                <div className={goods.dimg}><img src={require("../imgs/O1CN01e2sClP1rp1p4H6oPVitem_pic.jpg")} className={goods.img}></img></div>
+                                <div className={goods.dimg}><img src={require("../imgs/12047089632441691876&fm26&gp.jpg")}  className={goods.img}></img></div>
+                                <div className={goods.dimg}><img src={require("../imgs/u3851711179942763536&fm26&gp0.jpg")}  className={goods.img}></img></div>
+                                <div className={goods.dimg}><img src={require("../imgs/u41477241454285966385&fm26&gp0.jpg")}  className={goods.img}></img></div>
                             </Carousel>
                         </div>
                         <div className={goods.buy}>
@@ -35,14 +50,9 @@ export default class Goods extends React.Component {
                                 <p className={goods.p1}>酸香麻辣，口感独特</p>
                             </div>
                             <div className={goods.di2}>
-                                <h2 className={goods.h2}>原价</h2>
+                                <h2 className={goods.h2}>价格</h2>
                                 <p className={goods.p2}>¥</p>
                                 <p className={goods.p3}>9.00</p>
-                            </div>
-                            <div className={goods.di3}>
-                                <h2 className={goods.h3}>转价</h2>
-                                <p className={goods.p4}>¥</p>
-                                <p className={goods.p5}>8.50</p>
                             </div>
                             <div className={goods.di4}>
                                 <h3 className={goods.h}>口味：</h3>
@@ -52,12 +62,23 @@ export default class Goods extends React.Component {
                                 <h3 className={goods.h}>联系方式：</h3>
                                 <p className={goods.p}>183****33**</p>
                             </div>
+                             {/*数量*/}
+                             <div className={goods.di7}>
+                                <div className={goods.number}>
+                                    <h3 className={goods.lab}>数量：</h3>
+                                    <div className={goods.num}>
+                                        <And_reduce/>
+                                    </div>
+                                </div>
+                                
+                            </div>
                             <div className={goods.di6}>
                                 <Button className={goods.bu1}><Link to="/buysec">立即购买</Link></Button>
                                 <Button onClick={success} className={goods.bu2}><img src={require("../imgs/33.png")} className={goods.buimg}></img>加入购物车</Button>
                             </div>
                         </div>
                     </div>
+                </Form>
                     {/* 详情，评论 */}
                     <div className={goods.omore}>
                         <BrowserRouter basename="goods">
@@ -77,6 +98,7 @@ export default class Goods extends React.Component {
                         </BrowserRouter>
                     </div>
                 </div>
+                
                 <div>
     <BackTop />
     <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}></strong>

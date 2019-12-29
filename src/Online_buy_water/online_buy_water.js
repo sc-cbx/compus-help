@@ -1,11 +1,16 @@
 import React from 'react';
-
+import {Form, Button, Input,BackTop,Modal } from 'antd'
 import './online_buy_water.css'
 import online_img from "../imgs/24.png";
 import Header from '../Header/header';
 import And_reduce from '../Assembly/And_reduce/and_reduce';
 import Footer from '../Footer/footer';
 var on_buy_wt = require('./online_buy_water.css')
+function success() {
+    Modal.success({
+      content: '提交成功，等待送水即可，货到付款！',
+    });
+  }
 export default class Online_buy_water extends React.Component {
     constructor(){
         super();
@@ -69,7 +74,7 @@ export default class Online_buy_water extends React.Component {
                                 
                             </div>
                             
-                            <button type="submit">提交</button>
+                            <Button type="submit" onClick={success}>提交</Button>
                         </div>
                     </div>
                 </form>
