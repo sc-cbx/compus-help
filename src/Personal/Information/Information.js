@@ -42,8 +42,8 @@ export default class Information extends React.Component{
                                             </td>
                                         </tr>
 
-                                        <tr className={InformationCss.zhiye}>
-                                            <td><label for="zhiye" >&nbsp;&nbsp;&nbsp;&nbsp;职业：</label></td>
+                                        <tr  className={InformationCss.zhiye}>
+                                            <td><label for="zhiye">职业：</label></td>
                                             <td>
                                                 <select>
                                                     <option value="">学生</option>

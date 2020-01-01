@@ -11,7 +11,7 @@ export default class Beautymakeup extends React.Component {
         return (
             <div className={beautymakeup.container}>
 
-                {/* 收藏夹 美妆 */}
+                {/* 收藏夹-- 美妆 */}
                 <div className={beautymakeup.container_content}>
                     <ul>
                         <li>

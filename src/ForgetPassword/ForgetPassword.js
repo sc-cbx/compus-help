@@ -12,7 +12,7 @@ export default class ForgetPassword extends React.Component{
             <div>
                 <div className={ForgetPasswordCss.all}>
                     <div className={ForgetPasswordCss.logo}>
-                        <img src=""/>
+                        <Link to="/homepage"><img src={require("../imgs/logo.png")}/></Link>
                     </div>
                     <div className={ForgetPasswordCss.zhaohui_password}>
                         <div className={ForgetPasswordCss.title}>

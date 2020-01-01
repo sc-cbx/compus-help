@@ -1,11 +1,10 @@
 .all{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-color: aquamarine;
     overflow: hidden;
     background: url('./../images/hongyou.jpg');
-    
-   
+    background-size: 50% 100%;
 }
 .center{
     width: 35%;
@@ -30,18 +29,18 @@
 }
 .add_img{
     width: 100%;
-    height: 140px;
+    height: 150px;
     /* background-color: brown; */
     overflow: hidden;
 }
 .add_img img{
     
     display: block;
-    width: 200px;
-    height: 70px;
-    background-color: #ff4777;
+    width: 50%;
+    height: 90px;
+    /* background-color: #ff4777; */
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 .leirong{

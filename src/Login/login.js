@@ -19,7 +19,7 @@ export default class Login extends React.Component {
                     <div className={LoginCss.center_bottom}>
                         <div className={LoginCss.login_leirong}>
                             <div className={LoginCss.add_img}>
-                                <img src="" ></img>
+                                <img src={require("../imgs/logo.png")} style={{width: '50%'}} ></img>
                             </div>
                             <WrappedNormalLoginForm></WrappedNormalLoginForm>
                         </div>

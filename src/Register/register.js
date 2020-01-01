@@ -14,7 +14,7 @@ export default class Register extends React.Component{
                 </div>
                 <div className={RegisterCss.center_bottom}>
                           <div className={RegisterCss.add_img}>
-                              <img src="" />
+                            <img src={require("../imgs/logo.png")} style={{width: '30%'}} ></img>
                           </div>
                           <div className={RegisterCss.leirong}>
                               <WrappedNormalRegisterForm></WrappedNormalRegisterForm>
