@@ -41,6 +41,9 @@
 }
 
 /*结算*/
+.all_elections{
+    margin-top: 50px;
+}
 .container > .all_elections > .Settlement{
     line-height: 40px;
     margin-right: 4%;
@@ -55,7 +58,7 @@
     font-size: 18px;
     color: #ff4466;
 }
-.container > .all_elections > .Settlement > .settlement{
+.container > .all_elections > .Settlement > a > .settlement{
     width: 60px;
     height: 30px;
     line-height: 30px;
@@ -66,7 +69,7 @@
     border-bottom: 2px solid #f9f9f9;
     border-right: 2px solid #f9f9f9;
 }
-.container > .all_elections > .Settlement > .settlement:hover{
+.container > .all_elections > .Settlement > a > .settlement:hover{
     background-color: #ff476a;
 }
 
@@ -153,6 +156,7 @@
 .goods > .price > a{
     font-size: 14px;
     color: #0f0f0f;
+    /* text-align: center; */
     margin-left: 10%;
     margin-top: 3px;
 }
@@ -187,4 +191,9 @@
 .goods > .goods_num >.all_price > a:hover{
     color: #ff4466;
     text-decoration: underline;
+}
+.page{
+    width: 500px;
+    height: 50px;
+    margin-left: 32.5%;
 }

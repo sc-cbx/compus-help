@@ -15,42 +15,40 @@ ul ,ol ,li{
 
 /*食品速购*/
 .box{
-    height: 700px;
-    border: 1px solid rgb(235, 235, 235);
+    height: 1220px;
+    /* background-color: #fefefe; */
     margin: auto;
+    border: 1px solid rgb(233, 233, 233);
     width: 70%;
 }
 .quick_food_title{
     width: 100%;
-    height: 50px;
     background-color: #fafafa;
 }
 
 /* 搜索 */
 .quick_food_title > .search{
     width: 100%;
-    height: 50px;
-    border-bottom: 1px solid rgb(238, 238, 238);
+    height: 70px;
     background-color: #fafafa;
     /* border-bottom: 2px solid #ffffff; */
 }
 .quick_food_title > .search > .search_left{
-    margin-left: 1%;
+    margin-left: 5%;
     float: left;
 }
 .quick_food_title > .search > .search_left > img{
-    height: 50px;
+    height: 70px;
     float: left;
 }
 .quick_food_title > .search > .search_left > h2{
-    line-height: 50px;
+    line-height: 70px;
     font-size: 25px;
-    color:gray;
-    
+    color: #0f0f0f;
     float: left;
 }
 .quick_food_title > .search > .search_right{
-    margin-top: 5px;
+    margin-top: 18px;
     margin-right: 15%;
     float: right;
 }
@@ -59,16 +57,16 @@ ul ,ol ,li{
     height: 40px;
     text-indent: 20px;
     letter-spacing: 8px;
-    border-left: 1px solid #dddddd ;
-    border-top: 1px solid #dddddd ;
+    border-left: 2px solid #dddddd ;
+    border-top: 2px solid #dddddd ;
     float: left;
 }
 .quick_food_title > .search > .search_right > .search_btn{
     width: 80px;
-    height: 40px;
-    line-height: 40px;
+    height: 38px;
+    padding-top: 2px;
     background-color: #ffbdc9;
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     border-left: 0;
     float: right;
 }
@@ -208,27 +206,36 @@ ul ,ol ,li{
     height: 80px;
     background-color: #fefefe;
 }
-.container > .container_top > .food_title{
+.all{
+    width: 100%;
+    height: 1150px;
+}
+.container > .container_top > .all>.food_title{
     width: 100%;
     height: 40px;
     background-color: #fafafa;
     float: left;
 }
-.container > .container_top > .food_title > h3{
-    font-size: 22px;
+.container > .container_top >.all> .food_title > h3{
+    font-size: 20px;
     line-height: 40px;
     margin-left: 2%;
     /* border-bottom: 2px solid #727272; */
 }
-.container > .container_top > .container_title > a{
-    font-size: 20px;
-    color: #2c2c2c;
+.page{
+    width: 500px;
+    height: 50px;
+    margin-left: 32.5%;
+}
+.container > .container_top > .all>.container_title > a{
+    font-size: 18px;
+    color: gray;
     margin-left: 2%;
 }
-.container > .container_top > .container_title > a:hover{
+.container > .container_top >.all> .container_title > a:hover{
     color: #ff5d7b;
 }
-.container > .container_top > .container_title > span{
+.container > .container_top > .all>.container_title > span{
     margin-left: 2%;
 }
 

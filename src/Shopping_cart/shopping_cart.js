@@ -1,10 +1,11 @@
 import React from 'react';
 import {BrowserRouter, Link, Route} from "react-router-dom";
 import Header from "../Header/header";
-
+import { Button, Input,BackTop,Pagination } from 'antd'
 import shop_cart_imgs from '../imgs/1 (10).png'
 
 import Cart_goods from './Cart_goods/cart_goods'
+import Footer from '../Footer/footer';
 
 var shop_cart = require('./shopping_cart.css')
 export default class Shopping_cart extends React.Component {
@@ -43,6 +44,13 @@ export default class Shopping_cart extends React.Component {
                         </div>
                     </div>
                 </BrowserRouter>
+                <div>
+                        <BackTop />
+                    
+                        <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}>  </strong>
+                    
+                    </div>  
+                <Footer/>
             </div>
 
         )

@@ -11,89 +11,89 @@ export default class Beautymakeup extends React.Component {
         return (
             <div className={beautymakeup.container}>
 
-                {/* 收藏夹 美妆 */}
+                {/* 收藏夹-- 美妆 */}
                 <div className={beautymakeup.container_content}>
                     <ul>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={beauty} />
                                 <div className={beautymakeup.price}>
-                                    <Link to="/ordersec/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</Link>
+                                   <a href="/goods/details">日本SK2/SK-II/skii前男友面膜10片青春护肤神仙水补水保湿修护女</a>
                                     <p>￥540.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         
                     </ul>                     

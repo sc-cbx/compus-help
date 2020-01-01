@@ -18,76 +18,76 @@ export default class Digital extends React.Component {
                 <div className={digital.container_content}>
                     <ul>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={xiangji1} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">富士相机mini7C傻瓜可爱7s升级套餐含拍立得相纸男女学生款入门级</Link>
+                                   <a href="/goods/details">富士相机mini7C傻瓜可爱7s升级套餐含拍立得相纸男女学生款入门级</a>
                                     <p>￥200.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={xiangji2} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">富士相机mini7C傻瓜可爱7s升级套餐含拍立得相纸男女学生款入门级</Link>
+                                   <a href="/goods/details">富士相机mini7C傻瓜可爱7s升级套餐含拍立得相纸男女学生款入门级</a>
                                     <p>￥200.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={zufang} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">阿尔法温栖日租房</Link>
+                                   <a href="/goods/details">阿尔法温栖日租房</a>
                                     <p>￥70/天</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={phone} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">华为honor/荣耀 畅玩7X 全网通高配版移动联通电信4G人脸解锁手机</Link>
+                                   <a href="/goods/details">华为honor/荣耀 畅玩7X 全网通高配版移动联通电信4G人脸解锁手机</a>
                                     <p>￥5400</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={zufang} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">阿尔法温栖日租房</Link>
+                                   <a href="/goods/details">阿尔法温栖日租房</a>
                                     <p>￥70/天</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={phone} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">华为honor/荣耀 畅玩7X 全网通高配版移动联通电信4G人脸解锁手机</Link>
+                                   <a href="/goods/details">华为honor/荣耀 畅玩7X 全网通高配版移动联通电信4G人脸解锁手机</a>
                                     <p>￥5400</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={zufang} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">阿尔法温栖日租房</Link>
+                                   <a href="/goods/details">阿尔法温栖日租房</a>
                                     <p>￥70/天</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={zufang} />
                                 <div className={digital.price}>
-                                    <Link to="/ordersec/details">阿尔法温栖日租房</Link>
+                                   <a href="/goods/details">阿尔法温栖日租房</a>
                                     <p>￥70/天</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>                     
                 </div>         

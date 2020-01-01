@@ -15,94 +15,94 @@ export default class Clothes extends React.Component {
                 <div className={clothes.container_content}>
                     <ul>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to="/ordersec/details">
+                           <a href="/goods/details">
                                 <img src={clothes_img} />
                                 <div className={clothes.price}>
-                                    <Link to="/ordersec/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</Link>
+                                   <a href="/goods/details">汉尚华莲银兔汉服女真丝刺绣长袄手工钉真珍珠明制袄裙大气中国风</a>
                                     <p>￥666.00</p>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>                     
                 </div>         

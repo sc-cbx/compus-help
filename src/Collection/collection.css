@@ -16,35 +16,52 @@ ul ,ol ,li{
 
 /*收藏*/
 .box{
-    height: 1380px;
-    border: 1px solid rgb(238, 238, 238);
+    background-color: #fefefe;
     margin: auto;
     width: 70%;
+    height: 1460px;
+    border: 1px solid rgb(236, 236, 236);
+}
+.all{
+    width: 100%;
+    height:180px;
 }
 .collection_title{
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: #fafafa;
-    border: 1px solid rgb(241, 241, 241);
     letter-spacing: 4px;
 }
 .collection_title_left > .title_top > img{
-    height: 50px;
+    height: 80px;
     float: left;
 }
 .collection_title_left > .title_top > h2{
-    line-height: 50px;
-    font-size: 1.5em;
-    color: gray;
+    line-height: 80px;
+    font-size: 25px;
+    color: #0f0f0f;
+    float: left;
+}
+.collection_title_left > a{
+    width: 10%;
+    height: 40px;
+    color: #0f0f0f;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #fafafa;
+    border:1px solid #fafafa;
     float: left;
 }
 .collection_title_left > .baby_collection:hover{
     background-color: #ececec;
-    color:gray;
+    color: #1b1b1b;
     border:1px solid #ececec;
 }
 .collection_title_right{
-    height: 50px;
+    margin-top: 25px;
     margin-right: 3%;
     float: right;
 }
@@ -53,18 +70,16 @@ ul ,ol ,li{
     height: 35px;
     text-indent: 20px;
     letter-spacing: 8px;
-    margin-top: 7.5px;
-    border-left: 1px solid #dddddd ;
-    border-top: 1px solid #dddddd ;
+    border-left: 2px solid #dddddd ;
+    border-top: 2px solid #dddddd ;
     float: left;
 }
 .collection_title_right > button{
     width: 80px;
-    height: 35px;
-    line-height: 35px;
-    margin-top: 7.5px;
+    height: 33px;
+    padding-top: 2px;
     background-color: #ffbdc9;
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     border-left: 0;
     float: right;
 }
@@ -149,8 +164,13 @@ ul ,ol ,li{
 /*收藏内容*/
 .container_content{
     width: 100%;
-    height: 100%;
+    height: 1220px;
     float: left;
+}
+.page{
+    width: 500px;
+    height: 50px;
+    margin-left: 32.5%;
 }
 
 
